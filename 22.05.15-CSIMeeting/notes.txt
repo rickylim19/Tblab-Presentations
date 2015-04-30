@@ -1,0 +1,9 @@
+Rationale for mixture ChIPscore:
+
+- As the direct binding occurs within the protein complex
+- Within the complex, many other proteins may associate with lower signal intensities
+
+Peak functional annotation:
+
+- Classical: assign peak to its closest gene
+- This method: assign peak to its closest promoter and clusters the peaks in close proximity to the same gene

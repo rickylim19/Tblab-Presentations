@@ -1,0 +1,21 @@
+\frametitle{Input: ChIP-seq of Cebp$\epsilon$ from Koeffler-BM}
+    \begin{lstlisting}
+    ##FastQC 0.10.1
+    >>Basic Statistics pass
+    #Measure Value
+    Encoding Illumina 1.5
+    Total Sequences 41586141
+    Sequence length 40
+    #Summary
+    PASS Basic Statistics
+    PASS Per base sequence quality
+    PASS Per sequence quality scores
+    WARN Per base sequence content
+    PASS Per base GC content
+    PASS Per sequence GC content
+    PASS Per base N content
+    PASS Sequence Length Distribution
+    PASS Sequence Duplication Levels
+    PASS Overrepresented sequences
+    WARN Kmer Content
+    \end{lstlisting}

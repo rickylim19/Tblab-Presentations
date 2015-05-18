@@ -167,7 +167,7 @@ rounded corners, minimum height=4em]
 \subsubsection{What is Mixture Model (MM)?}
 \begin{frame}
     \begin{tikzpicture}[node distance=2cm, auto]
-        \node [blocktext] () {What is MM?};
+        \node [blocktext] () {What is Mixture Model (MM)?};
     \end{tikzpicture}
 
 \end{frame}
@@ -283,8 +283,8 @@ rounded corners, minimum height=4em]
 \begin{frame}[plain]
     \frametitle{Why jaHMM is better?}
     \begin{figure}
-        \includegraphics[width=0.4\textwidth, height=0.4\textwidth]{/home/ricky/Rlim/ChromatinConformation/ComponentCalls/CebpE/Output/Koeffler_BM_Cebpa_poissonModel.pdf}
-        \includegraphics[width=0.4\textwidth, height=0.4\textwidth]{/home/ricky/Rlim/ChromatinConformation/ComponentCalls/CebpE/Output/Koeffler_BM_Cebpa_negBinomModel.pdf}
+        \includegraphics[width=0.5\textwidth, height=0.5\textwidth]{/home/ricky/Rlim/ChromatinConformation/ComponentCalls/CebpE/Output/Koeffler_BM_Cebpa_poissonModel.pdf}
+        \includegraphics[width=0.5\textwidth, height=0.5\textwidth]{/home/ricky/Rlim/ChromatinConformation/ComponentCalls/CebpE/Output/Koeffler_BM_Cebpa_negBinomModel.pdf}
     \end{figure}
 \end{frame}
 
@@ -313,7 +313,6 @@ rounded corners, minimum height=4em]
     \frametitle{Why jaHMM is better than MACS2?}\\
     \begin{itemize}[<+->]
         \item Given our dataset, negative binomial model assumed by jaHMM fits better than poisson model assumed by MACS2
-        \item jaHMM identified more peaks than MACS2
         \item Peaks identified solely by jaHMM have scores higher with respect to their input than solely by MACS2  
     \end{itemize}
 \end{frame}
@@ -329,22 +328,22 @@ rounded corners, minimum height=4em]
 \begin{frame}
     \frametitle{Input: ChIP-seq of Cebp$\epsilon$ from Koeffler-BM}
     \begin{figure}
-        \includegraphics[width=0.8\textwidth, height=0.4\textwidth]{/home/ricky/Rlim/ChromatinConformation/ComponentCalls/CebpE/ComponentAnalysis/figs/Koeffler_BM_CebpE_CountChipSeqPeaks.pdf}
+        \includegraphics[width=1\textwidth, height=0.6\textwidth]{/home/ricky/Rlim/ChromatinConformation/ComponentCalls/CebpE/ComponentAnalysis/figs/Koeffler_BM_CebpE_CountChipSeqPeaks.pdf}
     \end{figure}
 \end{frame}
 
 \begin{frame}                                                                                                                        
     \frametitle{Log Transformation of ChIP-seq Input}
     \begin{figure}
-        \includegraphics[width=0.8\textwidth, height=0.4\textwidth]{/home/ricky/Rlim/ChromatinConformation/ComponentCalls/CebpE/ComponentAnalysis/figs/Koeffler_BM_CebpE_CountChipSeqPeaks_log.pdf}
+        \includegraphics[width=1\textwidth, height=0.6\textwidth]{/home/ricky/Rlim/ChromatinConformation/ComponentCalls/CebpE/ComponentAnalysis/figs/Koeffler_BM_CebpE_CountChipSeqPeaks_log.pdf}
     \end{figure}
 \end{frame}
 
 \begin{frame}                                                                                                                        
     \frametitle{Check the Normality}
     \begin{figure}
-        \includegraphics[width=0.4\textwidth, height=0.4\textwidth]{/home/ricky/Rlim/ChromatinConformation/ComponentCalls/CebpE/ComponentAnalysis/figs/Koeffler_BM_CebpE_log_qqplot.pdf}
-        \includegraphics[width=0.4\textwidth, height=0.4\textwidth]{/home/ricky/Rlim/ChromatinConformation/ComponentCalls/CebpE/ComponentAnalysis/figs/Koeffler_BM_CebpE_qqplot.pdf}
+        \includegraphics[width=0.5\textwidth, height=0.5\textwidth]{/home/ricky/Rlim/ChromatinConformation/ComponentCalls/CebpE/ComponentAnalysis/figs/Koeffler_BM_CebpE_log_qqplot.pdf}
+        \includegraphics[width=0.5\textwidth, height=0.5\textwidth]{/home/ricky/Rlim/ChromatinConformation/ComponentCalls/CebpE/ComponentAnalysis/figs/Koeffler_BM_CebpE_qqplot.pdf}
     \end{figure}
 \end{frame}
 
@@ -508,7 +507,7 @@ rounded corners, minimum height=4em]
 \subsection{Summary: Motif Calls}
 \begin{frame}
     \begin{itemize}[<+->]
-        \item Cebp motif is found in group3 only in 3-component GMMS using centdist
+        \item Cebp motif is found in group 2 and 3 in 3-component GMMS using centdist
         \item Next, can we further segregate these groups into direct and indirect bindings?
     \end{itemize}
 \end{frame} 
@@ -544,8 +543,6 @@ rounded corners, minimum height=4em]
         \begin{itemize}[<+->]
             \item Our current method could separate direct and indirect bindings 
             \item Next, can we further using peak clusters increase functional annotation?
-            \item Working on DNA methylation review on region to single base resolution DNA methylation research
-            \item TCGA methylation on 19 cancer patients
         \end{itemize}
     \end{frame} 
 

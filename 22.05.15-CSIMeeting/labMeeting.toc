@@ -8,9 +8,9 @@
 \beamer@subsubsectionintoc {2}{1}{1}{Input Data}{14}{0}{2}
 \beamer@subsubsectionintoc {2}{1}{2}{Peak Calls: MACS2 vs jaHMM}{15}{0}{2}
 \beamer@subsectionintoc {2}{2}{Summary: Peak Calls}{19}{0}{2}
-\beamer@subsubsectionintoc {2}{2}{1}{Component Calls}{22}{0}{2}
-\beamer@subsectionintoc {2}{3}{Summary: Component Calls}{30}{0}{2}
-\beamer@subsubsectionintoc {2}{3}{1}{Motif Calls}{33}{0}{2}
-\beamer@subsectionintoc {2}{4}{Summary: Motif Calls}{37}{0}{2}
-\beamer@subsubsectionintoc {2}{4}{1}{Model Update: Biclustering}{39}{0}{2}
-\beamer@sectionintoc {3}{Summary and Future}{42}{0}{3}
+\beamer@subsubsectionintoc {2}{2}{1}{Component Calls}{21}{0}{2}
+\beamer@subsectionintoc {2}{3}{Summary: Component Calls}{29}{0}{2}
+\beamer@subsubsectionintoc {2}{3}{1}{Motif Calls}{32}{0}{2}
+\beamer@subsectionintoc {2}{4}{Summary: Motif Calls}{36}{0}{2}
+\beamer@subsubsectionintoc {2}{4}{1}{Model Update: Biclustering}{38}{0}{2}
+\beamer@sectionintoc {3}{Summary and Future}{41}{0}{3}

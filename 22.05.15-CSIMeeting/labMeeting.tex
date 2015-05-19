@@ -41,7 +41,7 @@ rounded corners, minimum height=4em]
 % put the text at the right corner
 \newcommand\FrameText[1]{%
 \begin{textblock*}{\paperwidth}(0pt,\textheight)
-	\raggedright #1\hspace{.5em}
+    \raggedright #1\hspace{.5em}
 \end{textblock*}}
 
 % divide slide into 4
@@ -64,7 +64,7 @@ rounded corners, minimum height=4em]
 \def\shadequote{\@righttrue\shadequote@i}
 \def\shadequote@i{\begin{snugshade}\begin{quote}\openquote}
 \def\endshadequote{%
-	\if@right\hfill\fi\end{quote}\end{snugshade}}
+    \if@right\hfill\fi\end{quote}\end{snugshade}}
     %\if@right\hfill\fi\closequote\end{quote}\end{snugshade}}
 \@namedef{shadequote*}{\@rightfalse\shadequote@i}
 \@namedef{endshadequote*}{\endshadequote}
@@ -75,19 +75,15 @@ rounded corners, minimum height=4em]
 \newcommand\Fontvi{\fontsize{6}{7.2}\selectfont}
 
 % title page
-\title{Chromatin Conformation Prediction from ChIPseq Signal}
+\title{\normalsize Chromatin Conformation Prediction from ChIPseq Signal}
        
 
 \author[Lim]
-{Ricky Lim\inst{1}, Samuel Collombet\inst{2}, Agus Salim\inst{3}, Touati Benoukraf\inst{1}}
+{Ricky Lim\inst{1}} 
 \institute[] 
 {
-	\inst{1}
-	CSI-NUS
-    \inst{2}
-    Ecole Normale Superieur
-    \inst{3}
-    La Trobe University
+    \inst{1}
+    Touati Benoukraf-Lab at CSI-NUS
 }
 \date[22 May 2015]
 {CSI-Meeting \\\tiny{mailto:rlim.email@gmail.com}}
@@ -164,7 +160,7 @@ rounded corners, minimum height=4em]
 }
 
 
-\subsubsection{What is Mixture Model (MM)?}
+\subsubsection{What is Mixture Model?}
 \begin{frame}
     \begin{tikzpicture}[node distance=2cm, auto]
         \node [blocktext] () {What is Mixture Model (MM)?};
@@ -173,7 +169,7 @@ rounded corners, minimum height=4em]
 \end{frame}
 
 \begin{frame}
-    \frametitle{Mixture Model (GMM): Revisited}
+    \frametitle{Mixture Model: Revisited}
     Types of clustering methods:
     \begin{itemize}
         \item Hard clustering: non-overlapping clusters
@@ -182,8 +178,8 @@ rounded corners, minimum height=4em]
 
     \vspace{0.1in}
     \pause
-    MM is a probabilistic way of soft clustering.
-    Each cluster is a generative mixture model (pdf) with its parameters.
+    Mixture model is a probabilistic way of soft clustering.
+    Each cluster is a generative mixture model with its parameters.
 
 
 \end{frame}
@@ -191,12 +187,12 @@ rounded corners, minimum height=4em]
 
 \begin{frame}[plain]
 
-    \textbf{Mixture Gaussian pdf:}\\
+    \frametitle{Gaussian Mixture Model}
     Key Assumption:\\
     \begin{itemize}
-        \item ChIP-seq peaks are drawn from a finite set of gaussian distributions.
-        \item ChIPseq peaks are fit with gaussian mixture models, with mixing $\lambda$ parameter.
-        \item Each gaussian corresponds to a cluster of peaks with $\mu$ and $\sigma$ parameters.
+        \item ChIP-seq signals are drawn from a finite set of gaussian distributions.
+        \item ChIPseq signals are fit with gaussian mixture models, with mixing $\lambda$ parameter.
+        \item Each gaussian corresponds to a cluster of signals with $\mu$ and $\sigma$ parameters.
     \end{itemize}
     \vspace{0.1in}
 
@@ -205,16 +201,16 @@ rounded corners, minimum height=4em]
 
 \end{frame}
 
-\section{Preliminary results}
+\section{Our Strategy: Preliminary results}
 
 \subsection{Pipeline}                  
 \begin{frame}[plain]
     \begin{center}
 
     % Define block styles
-    \tikzstyle{decision} = [diamond, draw, fill=blue!20, 
+    \tikzstyle{decision} = [diamond, draw, fill=gray!20, 
         text width=4.5em, text badly centered, node distance=3cm, inner sep=0pt]
-    \tikzstyle{block} = [rectangle, draw, fill=blue!80!black,opacity=0.5, 
+    \tikzstyle{block} = [rectangle, draw, fill=gray!80!black,opacity=0.5, 
         text width=5em, text centered, rounded corners, minimum height=4em]
     \tikzstyle{line} = [draw, -latex']
     \tikzstyle{cloud} = [draw, ellipse,fill=red!20, node distance=2cm,
@@ -222,9 +218,9 @@ rounded corners, minimum height=4em]
         
     \begin{tikzpicture}[node distance = 2cm, auto]
         % Place nodes
-        \node [block] (comp) {Component Calls: MM};
-        \node [block, left of=comp, node distance=3cm, fill=green!80,opacity=0.5] (peak) {Peak Calls: MACS \& jaHMM};
-        \node [block, left of=peak, node distance=3cm, fill=green!80,opacity=0.5] (input) {Input: ChIP (*.fastq)};
+        \node [block] (comp) {Component Calls: \small{Mixture Model}};
+        \node [block, left of=comp, node distance=3cm, fill=gray!80] (peak) {Peak Calls: \small{MACS \& jaHMM}};
+        \node [block, left of=peak, node distance=3cm, fill=green!80,opacity=0.5] (input) {Input: \small{ChIP (*.bam)}};
         \node [block, below of=identify] (assess) {Model Assessment};
         \node [block, right of=assess, node distance=3cm] (update) {Model Update};
         \node [decision, below of=assess] (decide) {Can we identify direct and indirect bindings?};
@@ -249,39 +245,41 @@ rounded corners, minimum height=4em]
 \begin{frame}[plain,fragile]
     \frametitle{Input: ChIP-seq of Cebp$\epsilon$ from Koeffler-BM}
     \begin{lstlisting}
-    ##FastQC	0.10.1
-    >>Basic Statistics	pass
-    #Measure	Value	
-    Encoding	Illumina 1.5	
-    Total Sequences	41586141	
-    Sequence length	40	
+    ##FastQC    0.10.1
+    >>Basic Statistics  pass
+    #Measure    Value   
+    Encoding    Illumina 1.5    
+    Total Sequences 41586141    
+    Sequence length 40  
     #Summary
-    PASS	Basic Statistics	
-    PASS	Per base sequence quality	
-    PASS	Per sequence quality scores	
-    WARN	Per base sequence content	
-    PASS	Per base GC content	
-    PASS	Per sequence GC content	
-    PASS	Per base N content	
-    PASS	Sequence Length Distribution	
-    PASS	Sequence Duplication Levels	
-    PASS	Overrepresented sequences	
-    WARN	Kmer Content	
+    PASS    Basic Statistics    
+    PASS    Per base sequence quality   
+    PASS    Per sequence quality scores 
+    WARN    Per base sequence content   
+    PASS    Per base GC content 
+    PASS    Per sequence GC content 
+    PASS    Per base N content  
+    PASS    Sequence Length Distribution    
+    PASS    Sequence Duplication Levels 
+    PASS    Overrepresented sequences   
+    WARN    Kmer Content    
     \end{lstlisting}
 \end{frame}
     
 
 \subsubsection{Peak Calls: MACS2 vs jaHMM}
 \begin{frame}
-    \frametitle{Principles}
+    \frametitle{Peak Calls: MACS2 vs jaHMM}
     \begin{itemize}
-        \item \textbf{MACS2}: \textit{poisson} model-based analysis of Peak calls \href{http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3868217/}{MACS reference}
-        \item \textbf{jaHMM}: \textit{negative binomial} model-based analysis of Peak calls \href{http://arxiv.org/pdf/1405.5467.pdf}{jaHMM reference}
+        \uncover<2->{\item \textbf{MACS2}: \textit{poisson} model-based analysis of Peak calls \footnotemark[1]} 
+        \uncover<3->{\item \textbf{jaHMM}: \textit{negative binomial} model-based analysis of Peak calls \footnotemark[2]}
     \end{itemize}
+            \footnotetext[1]{Zhang et al. Model-based Analysis of ChIP-Seq (MACS). Genome Biol (2008) vol. 9 (9) pp. R137}
+            \footnotetext[2]{Filion et al. jahmm: A tool for discretizing multiple ChIP seq profiles. arXiv (2014)}
 \end{frame}
 
 \begin{frame}[plain]
-    \frametitle{Why jaHMM is better?}
+    \frametitle{jaHMM fits ChIPseq Signals better than MACS2}
     \begin{figure}
         \includegraphics[width=0.5\textwidth, height=0.5\textwidth]{/home/ricky/Rlim/ChromatinConformation/ComponentCalls/CebpE/Output/Koeffler_BM_Cebpa_poissonModel.pdf}
         \includegraphics[width=0.5\textwidth, height=0.5\textwidth]{/home/ricky/Rlim/ChromatinConformation/ComponentCalls/CebpE/Output/Koeffler_BM_Cebpa_negBinomModel.pdf}
@@ -289,15 +287,15 @@ rounded corners, minimum height=4em]
 \end{frame}
 
 \begin{frame}[plain]
-    \frametitle{Targets Identified by jahmm}
+    \frametitle{Peaks Called by jahmm}
     \begin{figure}
-        \includegraphics[width=0.7\textwidth, height=0.7\textwidth]{/home/ricky/Rlim/ChromatinConformation/PeakCalls/CebpE/Output/KoefflerLab_BM_ChIPseq_CebpE_300_Rjahmm.pdf}
+        \includegraphics[width=1\textwidth, height=0.7\textwidth]{/home/ricky/Rlim/ChromatinConformation/PeakCalls/CebpE/Output/KoefflerLab_BM_ChIPseq_CebpE_300_Rjahmm.pdf}
     \end{figure}
 \end{frame}
 
 \begin{frame}[plain]
-    \frametitle{Targets Identified by MACS2 vs jahmm}
-    \begin{figure}
+    \frametitle{Peaks Called by MACS2 vs jahmm}
+    \begin{figure}                           
         \begin{center}
             \includegraphics[width=1.5in, height=1.5in]{/home/ricky/Rlim/ChromatinConformation/PeakCalls/CebpE/Output/KoefflerLab_BM_ChIPseq_CebpE_macs_jahmm_venn.pdf}
         \end{center}
@@ -310,17 +308,17 @@ rounded corners, minimum height=4em]
 
 \subsection{Summary: Peak Calls}
 \begin{frame}
-    \frametitle{Why jaHMM is better than MACS2?}\\
+    \frametitle{Summary: Peak Calls}
     \begin{itemize}[<+->]
-        \item Given our dataset, negative binomial model assumed by jaHMM fits better than poisson model assumed by MACS2
-        \item Peaks identified solely by jaHMM have scores higher with respect to their input than solely by MACS2  
+        \item Given our dataset, MACS2 is able to call peaks however, the estimated scores are less fit than JAHMM 
+        \item Peaks identified solely by jaHMM have scores higher with respect to their input (higher ratio) than solely by MACS2  
     \end{itemize}
 \end{frame}
 
 \subsubsection{Component Calls}
 \begin{frame}
     \begin{tikzpicture}[node distance=2cm, auto]
-        \node [blocktext] () {Can we model ChIPseq Peaks using components of MMs?};
+        \node [blocktext] () {Can we model ChIPseq using components of MMs?};
     \end{tikzpicture}
 
 \end{frame}
@@ -340,7 +338,7 @@ rounded corners, minimum height=4em]
 \end{frame}
 
 \begin{frame}                                                                                                                        
-    \frametitle{Check the Normality}
+    \frametitle{Check the Gaussian Normality}
     \begin{figure}
         \includegraphics[width=0.5\textwidth, height=0.5\textwidth]{/home/ricky/Rlim/ChromatinConformation/ComponentCalls/CebpE/ComponentAnalysis/figs/Koeffler_BM_CebpE_log_qqplot.pdf}
         \includegraphics[width=0.5\textwidth, height=0.5\textwidth]{/home/ricky/Rlim/ChromatinConformation/ComponentCalls/CebpE/ComponentAnalysis/figs/Koeffler_BM_CebpE_qqplot.pdf}
@@ -368,7 +366,7 @@ rounded corners, minimum height=4em]
 
 
 \begin{frame}[plain]
-    \frametitle{GMM-ModelAssessment: Overfit\footnotemark[1]}
+    \frametitle{GMM-ModelAssessment: Overfit}
     \begin{figure}[H]
         \centering
         \subfloat{\includegraphics[width = 1.3in, height = 1 in ]{/home/ricky/Rlim/ChromatinConformation/ComponentCalls/CebpE/ComponentAnalysis/figs/Koeffler_BM_CebpE_GMM_ModelVisualization_log_300_comp2_empVsModel.pdf}}
@@ -410,13 +408,13 @@ rounded corners, minimum height=4em]
 
 \subsection{Summary: Component Calls}
 \begin{frame}
-    \frametitle{Summary}
+    \frametitle{Summary: Gaussian Mixture Models (GMMs)}
     \begin{itemize}[<+->]
         \item \textbf{Can we model ChIPseq using several components of MMs?}\\
             Yes, our ChIPseq Peaks identified by jaHMM can be fit with GMMs. 
 
         \item \textbf{How many components are required?}\\
-            From AIC-BIC and cross-validation, with 3 components are sufficient to fit the ChIPseq. 
+            From AIC-BIC model assessment, 3 components are sufficient to fit ChIPseq signals. 
             \\
             \small{Note: the lower the AIC and BIC values, the better the fitting.}
     \end{enumerate}
@@ -426,9 +424,9 @@ rounded corners, minimum height=4em]
     \begin{center}
 
     % Define block styles
-    \tikzstyle{decision} = [diamond, draw, fill=blue!20, 
+    \tikzstyle{decision} = [diamond, draw, fill=gray!20, 
         text width=4.5em, text badly centered, node distance=3cm, inner sep=0pt]
-    \tikzstyle{block} = [rectangle, draw, fill=blue!80!black,opacity=0.5, 
+    \tikzstyle{block} = [rectangle, draw, fill=gray!80!black,opacity=0.5, 
         text width=5em, text centered, rounded corners, minimum height=4em]
     \tikzstyle{line} = [draw, -latex']
     \tikzstyle{cloud} = [draw, ellipse,fill=red!20, node distance=2cm,
@@ -436,20 +434,20 @@ rounded corners, minimum height=4em]
         
     \begin{tikzpicture}[node distance = 2cm, auto]
         % Place nodes
-        \node [block] (comp) {Component Calls: GMM};
-        \node [block, left of=comp, node distance=3cm, fill=green!80,opacity=0.5] (peak) {Peak Calls: MACS (*.xls)};
-        \node [block, left of=peak, node distance=3cm, fill=green!80,opacity=0.5] (input) {Input: ChIP (*.fastq)};
-        \node [block, below of=identify, fill=red!80] (assess) {Model Assessment};
+        \node [block] (comp) {Component Calls: \small{Mixture Model}};
+        \node [block, left of=comp, node distance=3cm, fill=gray!80] (peak) {Peak Calls: \small{MACS \& jaHMM}};
+        \node [block, left of=peak, node distance=3cm, fill=green!80,opacity=0.5] (input) {Input: \small{ChIP (*.fastq)}};
+        \node [block, below of=identify] (assess) {Model Assessment};
         \node [block, right of=assess, node distance=3cm] (update) {Model Update};
         \node [decision, below of=assess] (decide) {Can we identify direct and indirect bindings?};
-        \node [block, left of=decide, node distance=5cm] (stop) {stop};
+        \node [block, left of=decide, node distance=5cm] (annot) {Functional Annotation};
 
         % Draw edges
         \path [line] (comp) -- (assess);
         \path [line] (assess) -- (decide);
         \path [line] (decide) -| node [near start] {no} (update);
         \path [line] (update) |- (comp);
-        \path [line] (decide) -- node {yes}(stop);
+        \path [line] (decide) -- node {yes}(annot);
 
         \path [line,dashed] (peak) -- (comp);
         \path [line,dashed] (input) -- (peak);
@@ -459,11 +457,13 @@ rounded corners, minimum height=4em]
     \end{center}
 \end{frame}
 
+
 \subsubsection{Motif Calls}
 \begin{frame}
     \begin{tikzpicture}[node distance=2cm, auto]
-        \node [blocktext] () {Motif Calls using Centdist};
+        \node [blocktext] () {Motif Calls using Centdist \footnotemark[1]};
     \end{tikzpicture}
+        \footnotetext[1]{Zhang et al. CENTDIST: discovery of co-associated factors by motif distribution. Nucleic Acids (2011)}
 
 \end{frame}
 
@@ -471,21 +471,21 @@ rounded corners, minimum height=4em]
 \begin{frame}[plain]
     \frametitle{Group1: low peak score (29559 peaks)}
     \begin{figure}
-        \includegraphics[width=1\textwidth, height=0.6\textwidth]{/home/ricky/Rlim/ChromatinConformation/MotifCalls/CebpE/Output/CentDist/Koeffler_BM_CebpE_GMM_ModelAssignment_log_300_group1_compSorted3/CENTDIST_Koeffler_BM_CebpE_GMM_ModelAssignment_log_300_group1_compSorted3_page1.pdf}
+        \includegraphics[width=1\textwidth, height=0.6\textwidth]{/home/ricky/Rlim/ChromatinConformation/MotifCalls/CebpE/Output/CentDist/Koeffler_BM_CebpE_GMM_ModelAssignment_log_300_group1_compSorted3/top3.png}
     \end{figure}
 \end{frame}
 
 \begin{frame}[plain]
     \frametitle{Group2: intermediate peak score (28851 peaks)}
     \begin{figure}
-        \includegraphics[width=1\textwidth, height=0.6\textwidth]{/home/ricky/Rlim/ChromatinConformation/MotifCalls/CebpE/Output/CentDist/Koeffler_BM_CebpE_GMM_ModelAssignment_log_300_group2_compSorted3/CENTDIST_Koeffler_BM_CebpE_GMM_ModelAssignment_log_300_group2_compSorted3_page1.pdf}
+        \includegraphics[width=1\textwidth, height=0.6\textwidth]{/home/ricky/Rlim/ChromatinConformation/MotifCalls/CebpE/Output/CentDist/Koeffler_BM_CebpE_GMM_ModelAssignment_log_300_group2_compSorted3/top3.png}
     \end{figure}
 \end{frame}
 
 \begin{frame}[plain]
     \frametitle{Group3: high peak score (5741 peaks)}
     \begin{figure}
-        \includegraphics[width=1\textwidth, height=0.6\textwidth]{/home/ricky/Rlim/ChromatinConformation/MotifCalls/CebpE/Output/CentDist/Koeffler_BM_CebpE_GMM_ModelAssignment_log_300_group3_compSorted3/CENTDIST_Koeffler_BM_CebpE_GMM_ModelAssignment_log_300_group3_compSorted3_page1.pdf}
+        \includegraphics[width=1\textwidth, height=0.6\textwidth]{/home/ricky/Rlim/ChromatinConformation/MotifCalls/CebpE/Output/CentDist/Koeffler_BM_CebpE_GMM_ModelAssignment_log_300_group3_compSorted3/top3.png}
     \end{figure}
 \end{frame}
 
@@ -506,6 +506,7 @@ rounded corners, minimum height=4em]
 
 \subsection{Summary: Motif Calls}
 \begin{frame}
+    \frametitle{Summary: Motif Calls}
     \begin{itemize}[<+->]
         \item Cebp motif is found in group 2 and 3 in 3-component GMMS using centdist
         \item Next, can we further segregate these groups into direct and indirect bindings?
@@ -527,14 +528,14 @@ rounded corners, minimum height=4em]
 \begin{frame}[plain]
     \frametitle{Direct: 24948 peaks}
     \begin{figure}
-        \includegraphics[width=1\textwidth, height=0.6\textwidth]{/home/ricky/Rlim/ChromatinConformation/MotifCalls/CebpE/Output/CentDist/Koeffler_BM_CebpE_GMM_BiclusterAssignment_SinglePeakFilteredOut_log_300_compSorted3_dist3kb_direct/CENTDIST_Koeffler_BM_CebpE_GMM_BiclusterAssignment_SinglePeakFilteredOut_log_300_compSorted3_dist3kb_direct_page1.pdf}
+        \includegraphics[width=1\textwidth, height=0.6\textwidth]{/home/ricky/Rlim/ChromatinConformation/MotifCalls/CebpE/Output/CentDist/Koeffler_BM_CebpE_GMM_BiclusterAssignment_SinglePeakFilteredOut_log_300_compSorted3_dist3kb_direct/top3.png}
     \end{figure}
 \end{frame}
 
 \begin{frame}[plain]
     \frametitle{Indirect: 26547 peaks}
     \begin{figure}
-        \includegraphics[width=1\textwidth, height=0.6\textwidth]{/home/ricky/Rlim/ChromatinConformation/MotifCalls/CebpE/Output/CentDist/Koeffler_BM_CebpE_GMM_BiclusterAssignment_SinglePeakFilteredOut_log_300_compSorted3_dist3kb_indirect/CENTDIST_Koeffler_BM_CebpE_GMM_BiclusterAssignment_SinglePeakFilteredOut_log_300_compSorted3_dist3kb_indirect_page1.pdf}
+        \includegraphics[width=1\textwidth, height=0.6\textwidth]{/home/ricky/Rlim/ChromatinConformation/MotifCalls/CebpE/Output/CentDist/Koeffler_BM_CebpE_GMM_BiclusterAssignment_SinglePeakFilteredOut_log_300_compSorted3_dist3kb_indirect/top3.png}
     \end{figure}
 \end{frame}
 
@@ -558,10 +559,11 @@ rounded corners, minimum height=4em]
     \end{figure}
 \end{frame}
 
-\begin{frame}
+\begin{frame}[plain]
     \frametitle{Acknowledgement}
     \begin{itemize}
-        \item Samuel Collomber (Ecole Normale Superieur)
+        \item Touati Benoukraf (CSI-NUS)
+        \item Samuel Collombet (Ecole Normale Superieur)
         \item Agus Salim (La Trobe University)
         \item Tong Yin (CEDARS SINAI Hospital)
         \item Phillip Koeffler (CSI-NUS)

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.8.13)  18 MAY 2015 16:00
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.8.13)  19 MAY 2015 16:35
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1188,35 +1188,35 @@ Package: listings 2013/08/26 1.5b (Carsten Heinz)
 (./labMeeting.aux)
 \openout1 = `labMeeting.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 99.
-LaTeX Font Info:    ... okay on input line 99.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 99.
-LaTeX Font Info:    ... okay on input line 99.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 99.
-LaTeX Font Info:    ... okay on input line 99.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 99.
-LaTeX Font Info:    ... okay on input line 99.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 99.
-LaTeX Font Info:    ... okay on input line 99.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 99.
-LaTeX Font Info:    ... okay on input line 99.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 99.
-LaTeX Font Info:    ... okay on input line 99.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 99.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 99.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 95.
+LaTeX Font Info:    ... okay on input line 95.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 95.
+LaTeX Font Info:    ... okay on input line 95.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 95.
+LaTeX Font Info:    ... okay on input line 95.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 95.
+LaTeX Font Info:    ... okay on input line 95.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 95.
+LaTeX Font Info:    ... okay on input line 95.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 95.
+LaTeX Font Info:    ... okay on input line 95.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 95.
+LaTeX Font Info:    ... okay on input line 95.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 95.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 95.
  (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 99.
+LaTeX Font Info:    ... okay on input line 95.
 LaTeX Font Info:    Try loading font information for T1+LinuxBiolinumT-TLF on i
-nput line 99.
+nput line 95.
 
 (/usr/share/texlive/texmf-dist/tex/latex/libertine/T1LinuxBiolinumT-TLF.fd
 File: T1LinuxBiolinumT-TLF.fd 2012/11/26 (autoinst) Font definitions for T1/Lin
 uxBiolinumT-TLF.
 )
 LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/m/n' will be
-(Font)              scaled to size 10.95pt on input line 99.
+(Font)              scaled to size 10.95pt on input line 95.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1269,7 +1269,7 @@ e
 ))
 ABD: EveryShipout initializing macros
 \AtBeginShipoutBox=\box84
-Package hyperref Info: Link coloring OFF on input line 99.
+Package hyperref Info: Link coloring OFF on input line 95.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
@@ -1279,72 +1279,72 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count209
 )
-LaTeX Info: Redefining \ref on input line 99.
-LaTeX Info: Redefining \pageref on input line 99.
-LaTeX Info: Redefining \nameref on input line 99.
+LaTeX Info: Redefining \ref on input line 95.
+LaTeX Info: Redefining \pageref on input line 95.
+LaTeX Info: Redefining \nameref on input line 95.
 
 (./labMeeting.out) (./labMeeting.out)
 \@outlinefile=\write5
 \openout5 = `labMeeting.out'.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 99.
+(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 95.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 99.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 95.
 \symnumbers=\mathgroup6
 \sympureletters=\mathgroup7
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
 (Font)                  OT1/cmss/m/n --> T1/LinuxLibertineT-TLF/m/n on input li
-ne 99.
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 99.
+ne 95.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 95.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
 (Font)                  OT1/cmr/bx/n --> T1/LinuxBiolinumT-TLF/bx/n on input li
-ne 99.
+ne 95.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
 (Font)                  OT1/cmr/bx/n --> T1/LinuxBiolinumT-TLF/bx/n on input li
-ne 99.
-LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 99.
+ne 95.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 95.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
 (Font)                  OT1/cmss/m/n --> T1/LinuxBiolinumT-TLF/m/n on input lin
-e 99.
+e 95.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
 (Font)                  OT1/cmss/bx/n --> T1/LinuxBiolinumT-TLF/m/n on input li
-ne 99.
-LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 99.
+ne 95.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 95.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
 (Font)                  OT1/cmr/m/it --> T1/LinuxBiolinumT-TLF/m/it on input li
-ne 99.
+ne 95.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
 (Font)                  OT1/cmr/bx/it --> T1/LinuxBiolinumT-TLF/m/it on input l
-ine 99.
-LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 99.
+ine 95.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 95.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
 (Font)                  OT1/cmtt/m/n --> T1/LinuxLibertineMonoT-TLF/m/n on inpu
-t line 99.
+t line 95.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 (Font)                  OT1/cmtt/m/n --> T1/LinuxLibertineMonoT-TLF/m/n on inpu
-t line 99.
+t line 95.
 LaTeX Font Info:    Overwriting symbol font `numbers' in version `bold'
 (Font)                  T1/LinuxBiolinumT-TLF/m/n --> T1/LinuxBiolinumT-TLF/bx/
-n on input line 99.
+n on input line 95.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
 (Font)                  T1/LinuxBiolinumT-TLF/m/it --> T1/LinuxBiolinumT-TLF/bx
-/it on input line 99.
+/it on input line 95.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
 (Font)                  OT1/cmss/bx/n --> T1/LinuxLibertineT-TLF/bx/n on input 
-line 99.
+line 95.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
 (Font)                  T1/LinuxBiolinumT-TLF/bx/n --> T1/LinuxBiolinumT-TLF/bx
-/n on input line 99.
+/n on input line 95.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
 (Font)                  T1/LinuxBiolinumT-TLF/m/n --> T1/LinuxBiolinumT-TLF/bx/
-n on input line 99.
+n on input line 95.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
 (Font)                  T1/LinuxBiolinumT-TLF/m/it --> T1/LinuxBiolinumT-TLF/bx
-/it on input line 99.
+/it on input line 95.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 (Font)                  T1/LinuxLibertineMonoT-TLF/m/n --> T1/LinuxLibertineMon
-oT-TLF/bx/n on input line 99.
+oT-TLF/bx/n on input line 95.
 
 (/usr/share/texmf/tex/latex/beamer/base/translator/dicts/translator-basic-dicti
 onary/translator-basic-dictionary-English.dict
@@ -1370,7 +1370,7 @@ Dictionary: translator-numbers-dictionary, Language: English
 tionary/translator-theorem-dictionary-English.dict
 Dictionary: translator-theorem-dictionary, Language: English 
 )
-LaTeX Info: Redefining \includegraphics on input line 99.
+LaTeX Info: Redefining \includegraphics on input line 95.
 \c@mv@tabular=\count210
 \c@mv@boldtabular=\count211
 Package caption Info: Begin \AtBeginDocument code.
@@ -1379,56 +1379,58 @@ Package caption Info: End \AtBeginDocument code.
 \c@lstlisting=\count212
  (./labMeeting.nav)
 LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/m/n' will be
-(Font)              scaled to size 6.0pt on input line 99.
+(Font)              scaled to size 6.0pt on input line 95.
 LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/bx/n' in size <6> not ava
 ilable
 (Font)              Font shape `T1/LinuxBiolinumT-TLF/b/n' tried instead on inp
-ut line 99.
+ut line 95.
 LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/b/n' will be
-(Font)              scaled to size 6.0pt on input line 99.
+(Font)              scaled to size 6.0pt on input line 95.
 LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/m/n' will be
-(Font)              scaled to size 14.4pt on input line 103.
+(Font)              scaled to size 14.4pt on input line 99.
 LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/m/it' will be
-(Font)              scaled to size 14.4pt on input line 103.
+(Font)              scaled to size 14.4pt on input line 99.
 LaTeX Font Info:    Try loading font information for T1+LinuxLibertineT-TLF on 
-input line 103.
+input line 99.
 
 (/usr/share/texlive/texmf-dist/tex/latex/libertine/T1LinuxLibertineT-TLF.fd
 File: T1LinuxLibertineT-TLF.fd 2012/11/26 (autoinst) Font definitions for T1/Li
 nuxLibertineT-TLF.
 )
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/it' will be
-(Font)              scaled to size 14.4pt on input line 103.
-LaTeX Font Info:    Try loading font information for U+msa on input line 103.
+(Font)              scaled to size 14.4pt on input line 99.
+LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/it' will be
+(Font)              scaled to size 10.95pt on input line 99.
+LaTeX Font Info:    Try loading font information for U+msa on input line 99.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 103.
+LaTeX Font Info:    Try loading font information for U+msb on input line 99.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/m/n' will be
-(Font)              scaled to size 8.0pt on input line 103.
+(Font)              scaled to size 8.0pt on input line 99.
 LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/m/it' will be
-(Font)              scaled to size 10.95pt on input line 103.
+(Font)              scaled to size 10.95pt on input line 99.
 LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/m/it' will be
-(Font)              scaled to size 8.0pt on input line 103.
+(Font)              scaled to size 8.0pt on input line 99.
 LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/m/it' will be
-(Font)              scaled to size 6.0pt on input line 103.
+(Font)              scaled to size 6.0pt on input line 99.
 LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/m/n' will be
-(Font)              scaled to size 5.0pt on input line 103.
+(Font)              scaled to size 5.0pt on input line 99.
 LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/m/it' will be
-(Font)              scaled to size 5.0pt on input line 103.
+(Font)              scaled to size 5.0pt on input line 99.
 LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/bx/n' in size <4> not ava
 ilable
 (Font)              Font shape `T1/LinuxBiolinumT-TLF/b/n' tried instead on inp
-ut line 103.
+ut line 99.
 LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/b/n' will be
-(Font)              scaled to size 4.0pt on input line 103.
+(Font)              scaled to size 4.0pt on input line 99.
 LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/m/n' will be
-(Font)              scaled to size 4.0pt on input line 103.
+(Font)              scaled to size 4.0pt on input line 99.
  [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
 ] (./labMeeting.toc
@@ -1444,83 +1446,73 @@ LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/m/n' will be
 
 ]
 LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/m/n' will be
-(Font)              scaled to size 10.0pt on input line 122.
+(Font)              scaled to size 10.0pt on input line 118.
 LaTeX Font Info:    Try loading font information for TS1+LinuxBiolinumT-TLF on 
-input line 122.
+input line 118.
 
 (/usr/share/texlive/texmf-dist/tex/latex/libertine/TS1LinuxBiolinumT-TLF.fd
 File: TS1LinuxBiolinumT-TLF.fd 2012/11/26 (autoinst) Font definitions for TS1/L
 inuxBiolinumT-TLF.
 )
 LaTeX Font Info:    Font shape `TS1/LinuxBiolinumT-TLF/m/n' will be
-(Font)              scaled to size 10.0pt on input line 122.
+(Font)              scaled to size 10.0pt on input line 118.
 LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/bx/n' in size <10.95> not
  available
 (Font)              Font shape `T1/LinuxBiolinumT-TLF/b/n' tried instead on inp
-ut line 122.
+ut line 118.
 LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/b/n' will be
-(Font)              scaled to size 10.95pt on input line 122.
+(Font)              scaled to size 10.95pt on input line 118.
 
 [3
 
 ] [4
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 129--129
+Underfull \hbox (badness 10000) in paragraph at lines 125--125
  [][][][]\T1/LinuxBiolinumT-TLF/m/n/10.95 What is ChIPseq? 
  []
 
 
-Overfull \hbox (7.69917pt too wide) in paragraph at lines 129--129
+Overfull \hbox (7.69917pt too wide) in paragraph at lines 125--125
 [][]  
  []
 
 [5
 
-] <../Images/ChIP.png, id=223, 845.0772pt x 597.432pt>
+] <../Images/ChIP.png, id=223, 1056.94875pt x 747.79375pt>
 File: ../Images/ChIP.png Graphic file (type png)
 
 <use ../Images/ChIP.png>
-Package pdftex.def Info: ../Images/ChIP.png used on input line 140.
-(pdftex.def)             Requested size: 364.19536pt x 257.46506pt.
+Package pdftex.def Info: ../Images/ChIP.png used on input line 136.
+(pdftex.def)             Requested size: 364.19536pt x 257.66963pt.
  [6
 
- <../Images/ChIP.png
-
-pdfTeX warning: pdflatex (file ../Images/ChIP.png): large interlaced PNG might 
-cause out of memory (use non-interlaced PNG to fix this)
->] <../Images/ChromatinConfig.png, id=227, 845.0772pt x 597.432pt>
+ <../Images/ChIP.png>]
+<../Images/ChromatinConfig.png, id=229, 801.2334pt x 577.6782pt>
 File: ../Images/ChromatinConfig.png Graphic file (type png)
 
 <use ../Images/ChromatinConfig.png>
-Package pdftex.def Info: ../Images/ChromatinConfig.png used on input line 152.
-(pdftex.def)             Requested size: 364.19536pt x 257.46506pt.
+Package pdftex.def Info: ../Images/ChromatinConfig.png used on input line 148.
+(pdftex.def)             Requested size: 364.19536pt x 262.57954pt.
  [7
 
- <../Images/ChromatinConfig.png
-
-pdfTeX warning: pdflatex (file ../Images/ChromatinConfig.png): large interlaced
- PNG might cause out of memory (use non-interlaced PNG to fix this)
->] <../Images/HypotheticalConformation.png, id=233, 845.0772pt x 597.432pt>
+ <../Images/ChromatinConfig.png>]
+<../Images/HypotheticalConformation.png, id=236, 859.43484pt x 567.17496pt>
 File: ../Images/HypotheticalConformation.png Graphic file (type png)
 
 <use ../Images/HypotheticalConformation.png>
 Package pdftex.def Info: ../Images/HypotheticalConformation.png used on input l
-ine 163.
-(pdftex.def)             Requested size: 364.19536pt x 257.46506pt.
+ine 159.
+(pdftex.def)             Requested size: 364.19536pt x 240.34949pt.
  [8
 
- <../Images/HypotheticalConformation.png
-
-pdfTeX warning: pdflatex (file ../Images/HypotheticalConformation.png): large i
-nterlaced PNG might cause out of memory (use non-interlaced PNG to fix this)
->]
-Underfull \hbox (badness 5345) in paragraph at lines 173--173
+ <../Images/HypotheticalConformation.png>]
+Underfull \hbox (badness 5345) in paragraph at lines 169--169
  [][][][]\T1/LinuxBiolinumT-TLF/m/n/10.95 What is Mix-ture Model (MM)? 
  []
 
 
-Overfull \hbox (7.69917pt too wide) in paragraph at lines 173--173
+Overfull \hbox (7.69917pt too wide) in paragraph at lines 169--169
 [][]  
  []
 
@@ -1536,7 +1528,7 @@ Overfull \hbox (7.69917pt too wide) in paragraph at lines 173--173
 ! Too many }'s.
 \endframe ->\egroup 
                     \begingroup \def \@currenvir {frame}
-l.206 \end{frame}
+l.202 \end{frame}
                  
 ? 
 
@@ -1546,11 +1538,11 @@ See the pgf package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.246 \end{frame}
+l.242 \end{frame}
                  
 ? 
 
-Overfull \hbox (11.23407pt too wide) in paragraph at lines 246--246
+Overfull \hbox (11.23407pt too wide) in paragraph at lines 242--242
  [] 
  []
 
@@ -1571,65 +1563,72 @@ LaTeX Font Info:    Font shape `T1/LinuxLibertineMonoT-TLF/m/n' will be
 (Font)              scaled to size 10.0pt on input line 2.
 )
 LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/m/n' will be
-(Font)              scaled to size 7.0pt on input line 271.
+(Font)              scaled to size 7.0pt on input line 267.
 LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/m/it' will be
-(Font)              scaled to size 10.0pt on input line 271.
+(Font)              scaled to size 10.0pt on input line 267.
 LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/m/it' will be
-(Font)              scaled to size 7.0pt on input line 271.
+(Font)              scaled to size 7.0pt on input line 267.
  [14
 
-] [15
+]
+LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/m/it' will be
+(Font)              scaled to size 9.0pt on input line 279.
+ [15
+
+] [16
+
+] [17
 
 ]
 </home/ricky/Rlim/ChromatinConformation/ComponentCalls/CebpE/Output/Koeffler_BM
-_Cebpa_poissonModel.pdf, id=440, 505.89pt x 505.89pt>
+_Cebpa_poissonModel.pdf, id=506, 505.89pt x 505.89pt>
 File: /home/ricky/Rlim/ChromatinConformation/ComponentCalls/CebpE/Output/Koeffl
 er_BM_Cebpa_poissonModel.pdf Graphic file (type pdf)
 
 <use /home/ricky/Rlim/ChromatinConformation/ComponentCalls/CebpE/Output/Koeffle
 r_BM_Cebpa_poissonModel.pdf>
 Package pdftex.def Info: /home/ricky/Rlim/ChromatinConformation/ComponentCalls/
-CebpE/Output/Koeffler_BM_Cebpa_poissonModel.pdf used on input line 289.
+CebpE/Output/Koeffler_BM_Cebpa_poissonModel.pdf used on input line 287.
 (pdftex.def)             Requested size: 153.64394pt x 153.64394pt.
 
 </home/ricky/Rlim/ChromatinConformation/ComponentCalls/CebpE/Output/Koeffler_BM
-_Cebpa_negBinomModel.pdf, id=441, 505.89pt x 505.89pt>
+_Cebpa_negBinomModel.pdf, id=507, 505.89pt x 505.89pt>
 File: /home/ricky/Rlim/ChromatinConformation/ComponentCalls/CebpE/Output/Koeffl
 er_BM_Cebpa_negBinomModel.pdf Graphic file (type pdf)
 
 <use /home/ricky/Rlim/ChromatinConformation/ComponentCalls/CebpE/Output/Koeffle
 r_BM_Cebpa_negBinomModel.pdf>
 Package pdftex.def Info: /home/ricky/Rlim/ChromatinConformation/ComponentCalls/
-CebpE/Output/Koeffler_BM_Cebpa_negBinomModel.pdf used on input line 289.
+CebpE/Output/Koeffler_BM_Cebpa_negBinomModel.pdf used on input line 287.
 (pdftex.def)             Requested size: 153.64394pt x 153.64394pt.
- [16
+ [18
 
  </home/ricky/Rlim/ChromatinConformation/ComponentCalls/CebpE/Output/Koeffler_B
 M_Cebpa_poissonModel.pdf> </home/ricky/Rlim/ChromatinConformation/ComponentCall
 s/CebpE/Output/Koeffler_BM_Cebpa_negBinomModel.pdf>]
 </home/ricky/Rlim/ChromatinConformation/PeakCalls/CebpE/Output/KoefflerLab_BM_C
-hIPseq_CebpE_300_Rjahmm.pdf, id=479, 505.89pt x 505.89pt>
+hIPseq_CebpE_300_Rjahmm.pdf, id=544, 505.89pt x 505.89pt>
 File: /home/ricky/Rlim/ChromatinConformation/PeakCalls/CebpE/Output/KoefflerLab
 _BM_ChIPseq_CebpE_300_Rjahmm.pdf Graphic file (type pdf)
 
 <use /home/ricky/Rlim/ChromatinConformation/PeakCalls/CebpE/Output/KoefflerLab_
 BM_ChIPseq_CebpE_300_Rjahmm.pdf>
 Package pdftex.def Info: /home/ricky/Rlim/ChromatinConformation/PeakCalls/CebpE
-/Output/KoefflerLab_BM_ChIPseq_CebpE_300_Rjahmm.pdf used on input line 296.
-(pdftex.def)             Requested size: 215.1046pt x 215.1046pt.
- [17
+/Output/KoefflerLab_BM_ChIPseq_CebpE_300_Rjahmm.pdf used on input line 294.
+(pdftex.def)             Requested size: 307.29561pt x 215.1046pt.
+ [19
 
  </home/ricky/Rlim/ChromatinConformation/PeakCalls/CebpE/Output/KoefflerLab_BM_
 ChIPseq_CebpE_300_Rjahmm.pdf>]
 </home/ricky/Rlim/ChromatinConformation/PeakCalls/CebpE/Output/KoefflerLab_BM_C
-hIPseq_CebpE_macs_jahmm_venn.pdf, id=509, 505.89pt x 505.89pt>
+hIPseq_CebpE_macs_jahmm_venn.pdf, id=575, 505.89pt x 505.89pt>
 File: /home/ricky/Rlim/ChromatinConformation/PeakCalls/CebpE/Output/KoefflerLab
 _BM_ChIPseq_CebpE_macs_jahmm_venn.pdf Graphic file (type pdf)
 
 <use /home/ricky/Rlim/ChromatinConformation/PeakCalls/CebpE/Output/KoefflerLab_
 BM_ChIPseq_CebpE_macs_jahmm_venn.pdf>
 Package pdftex.def Info: /home/ricky/Rlim/ChromatinConformation/PeakCalls/CebpE
-/Output/KoefflerLab_BM_ChIPseq_CebpE_macs_jahmm_venn.pdf used on input line 309
+/Output/KoefflerLab_BM_ChIPseq_CebpE_macs_jahmm_venn.pdf used on input line 307
 .
 (pdftex.def)             Requested size: 108.40141pt x 108.40141pt.
 
@@ -1640,23 +1639,23 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.309 \end{frame}
+l.307 \end{frame}
                  
 ? 
 
 </home/ricky/Rlim/ChromatinConformation/PeakCalls/CebpE/Output/KoefflerLab_BM_C
-hIPseq_CebpE_macs_targets.pdf, id=510, 505.89pt x 505.89pt>
+hIPseq_CebpE_macs_targets.pdf, id=576, 505.89pt x 505.89pt>
 File: /home/ricky/Rlim/ChromatinConformation/PeakCalls/CebpE/Output/KoefflerLab
 _BM_ChIPseq_CebpE_macs_targets.pdf Graphic file (type pdf)
 
 <use /home/ricky/Rlim/ChromatinConformation/PeakCalls/CebpE/Output/KoefflerLab_
 BM_ChIPseq_CebpE_macs_targets.pdf>
 Package pdftex.def Info: /home/ricky/Rlim/ChromatinConformation/PeakCalls/CebpE
-/Output/KoefflerLab_BM_ChIPseq_CebpE_macs_targets.pdf used on input line 309.
+/Output/KoefflerLab_BM_ChIPseq_CebpE_macs_targets.pdf used on input line 307.
 (pdftex.def)             Requested size: 108.40141pt x 108.40141pt.
 
 </home/ricky/Rlim/ChromatinConformation/PeakCalls/CebpE/Output/KoefflerLab_BM_C
-hIPseq_CebpE_macs_jahmm_targets.pdf, id=511, 505.89pt x 505.89pt>
+hIPseq_CebpE_macs_jahmm_targets.pdf, id=577, 505.89pt x 505.89pt>
 File: /home/ricky/Rlim/ChromatinConformation/PeakCalls/CebpE/Output/KoefflerLab
 _BM_ChIPseq_CebpE_macs_jahmm_targets.pdf Graphic file (type pdf)
 
@@ -1664,67 +1663,45 @@ _BM_ChIPseq_CebpE_macs_jahmm_targets.pdf Graphic file (type pdf)
 BM_ChIPseq_CebpE_macs_jahmm_targets.pdf>
 Package pdftex.def Info: /home/ricky/Rlim/ChromatinConformation/PeakCalls/CebpE
 /Output/KoefflerLab_BM_ChIPseq_CebpE_macs_jahmm_targets.pdf used on input line 
-309.
+307.
 (pdftex.def)             Requested size: 108.40141pt x 108.40141pt.
 
 </home/ricky/Rlim/ChromatinConformation/PeakCalls/CebpE/Output/KoefflerLab_BM_C
-hIPseq_CebpE_jahmm_targets.pdf, id=512, 505.89pt x 505.89pt>
+hIPseq_CebpE_jahmm_targets.pdf, id=578, 505.89pt x 505.89pt>
 File: /home/ricky/Rlim/ChromatinConformation/PeakCalls/CebpE/Output/KoefflerLab
 _BM_ChIPseq_CebpE_jahmm_targets.pdf Graphic file (type pdf)
 
 <use /home/ricky/Rlim/ChromatinConformation/PeakCalls/CebpE/Output/KoefflerLab_
 BM_ChIPseq_CebpE_jahmm_targets.pdf>
 Package pdftex.def Info: /home/ricky/Rlim/ChromatinConformation/PeakCalls/CebpE
-/Output/KoefflerLab_BM_ChIPseq_CebpE_jahmm_targets.pdf used on input line 309.
+/Output/KoefflerLab_BM_ChIPseq_CebpE_jahmm_targets.pdf used on input line 307.
 (pdftex.def)             Requested size: 108.40141pt x 108.40141pt.
 
-Overfull \hbox (17.91437pt too wide) in paragraph at lines 309--309
+Overfull \hbox (17.91437pt too wide) in paragraph at lines 307--307
  [][][][] 
  []
 
-[18
+[20
 
  </home/ricky/Rlim/ChromatinConformation/PeakCalls/CebpE/Output/KoefflerLab_BM_
 ChIPseq_CebpE_macs_jahmm_venn.pdf> </home/ricky/Rlim/ChromatinConformation/Peak
 Calls/CebpE/Output/KoefflerLab_BM_ChIPseq_CebpE_macs_targets.pdf> </home/ricky/
 Rlim/ChromatinConformation/PeakCalls/CebpE/Output/KoefflerLab_BM_ChIPseq_CebpE_
 macs_jahmm_targets.pdf> </home/ricky/Rlim/ChromatinConformation/PeakCalls/CebpE
-/Output/KoefflerLab_BM_ChIPseq_CebpE_jahmm_targets.pdf>]
+/Output/KoefflerLab_BM_ChIPseq_CebpE_jahmm_targets.pdf>] [21
 
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.318 \end{frame}
-                 
-? 
-[19
+] [22
 
 ]
-
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.318 \end{frame}
-                 
-? 
-[20
-
-]
-Overfull \hbox (7.69917pt too wide) in paragraph at lines 326--326
+Overfull \hbox (7.69917pt too wide) in paragraph at lines 324--324
 [][]  
  []
 
-[21
+[23
 
 ]
 </home/ricky/Rlim/ChromatinConformation/ComponentCalls/CebpE/ComponentAnalysis/
-figs/Koeffler_BM_CebpE_CountChipSeqPeaks.pdf, id=669, 505.89pt x 505.89pt>
+figs/Koeffler_BM_CebpE_CountChipSeqPeaks.pdf, id=735, 505.89pt x 505.89pt>
 File: /home/ricky/Rlim/ChromatinConformation/ComponentCalls/CebpE/ComponentAnal
 ysis/figs/Koeffler_BM_CebpE_CountChipSeqPeaks.pdf Graphic file (type pdf)
 
@@ -1732,18 +1709,18 @@ ysis/figs/Koeffler_BM_CebpE_CountChipSeqPeaks.pdf Graphic file (type pdf)
 sis/figs/Koeffler_BM_CebpE_CountChipSeqPeaks.pdf>
 Package pdftex.def Info: /home/ricky/Rlim/ChromatinConformation/ComponentCalls/
 CebpE/ComponentAnalysis/figs/Koeffler_BM_CebpE_CountChipSeqPeaks.pdf used on in
-put line 333.
+put line 331.
 (pdftex.def)             Requested size: 307.29561pt x 184.37427pt.
 
-Overfull \vbox (7.90887pt too high) detected at line 333
+Overfull \vbox (7.90887pt too high) detected at line 331
  []
 
-[22
+[24
 
  </home/ricky/Rlim/ChromatinConformation/ComponentCalls/CebpE/ComponentAnalysis
 /figs/Koeffler_BM_CebpE_CountChipSeqPeaks.pdf>]
 </home/ricky/Rlim/ChromatinConformation/ComponentCalls/CebpE/ComponentAnalysis/
-figs/Koeffler_BM_CebpE_CountChipSeqPeaks_log.pdf, id=711, 504.88625pt x 504.886
+figs/Koeffler_BM_CebpE_CountChipSeqPeaks_log.pdf, id=776, 504.88625pt x 504.886
 25pt>
 File: /home/ricky/Rlim/ChromatinConformation/ComponentCalls/CebpE/ComponentAnal
 ysis/figs/Koeffler_BM_CebpE_CountChipSeqPeaks_log.pdf Graphic file (type pdf)
@@ -1752,18 +1729,18 @@ ysis/figs/Koeffler_BM_CebpE_CountChipSeqPeaks_log.pdf Graphic file (type pdf)
 sis/figs/Koeffler_BM_CebpE_CountChipSeqPeaks_log.pdf>
 Package pdftex.def Info: /home/ricky/Rlim/ChromatinConformation/ComponentCalls/
 CebpE/ComponentAnalysis/figs/Koeffler_BM_CebpE_CountChipSeqPeaks_log.pdf used o
-n input line 340.
+n input line 338.
 (pdftex.def)             Requested size: 307.2945pt x 184.37823pt.
 
-Overfull \vbox (7.91284pt too high) detected at line 340
+Overfull \vbox (7.91284pt too high) detected at line 338
  []
 
-[23
+[25
 
  </home/ricky/Rlim/ChromatinConformation/ComponentCalls/CebpE/ComponentAnalysis
 /figs/Koeffler_BM_CebpE_CountChipSeqPeaks_log.pdf>]
 </home/ricky/Rlim/ChromatinConformation/ComponentCalls/CebpE/ComponentAnalysis/
-figs/Koeffler_BM_CebpE_log_qqplot.pdf, id=752, 505.89pt x 505.89pt>
+figs/Koeffler_BM_CebpE_log_qqplot.pdf, id=819, 505.89pt x 505.89pt>
 File: /home/ricky/Rlim/ChromatinConformation/ComponentCalls/CebpE/ComponentAnal
 ysis/figs/Koeffler_BM_CebpE_log_qqplot.pdf Graphic file (type pdf)
 
@@ -1771,11 +1748,11 @@ ysis/figs/Koeffler_BM_CebpE_log_qqplot.pdf Graphic file (type pdf)
 sis/figs/Koeffler_BM_CebpE_log_qqplot.pdf>
 Package pdftex.def Info: /home/ricky/Rlim/ChromatinConformation/ComponentCalls/
 CebpE/ComponentAnalysis/figs/Koeffler_BM_CebpE_log_qqplot.pdf used on input lin
-e 348.
+e 346.
 (pdftex.def)             Requested size: 153.64394pt x 153.64394pt.
 
 </home/ricky/Rlim/ChromatinConformation/ComponentCalls/CebpE/ComponentAnalysis/
-figs/Koeffler_BM_CebpE_qqplot.pdf, id=753, 505.89pt x 505.89pt>
+figs/Koeffler_BM_CebpE_qqplot.pdf, id=820, 505.89pt x 505.89pt>
 File: /home/ricky/Rlim/ChromatinConformation/ComponentCalls/CebpE/ComponentAnal
 ysis/figs/Koeffler_BM_CebpE_qqplot.pdf Graphic file (type pdf)
 
@@ -1783,9 +1760,9 @@ ysis/figs/Koeffler_BM_CebpE_qqplot.pdf Graphic file (type pdf)
 sis/figs/Koeffler_BM_CebpE_qqplot.pdf>
 Package pdftex.def Info: /home/ricky/Rlim/ChromatinConformation/ComponentCalls/
 CebpE/ComponentAnalysis/figs/Koeffler_BM_CebpE_qqplot.pdf used on input line 34
-8.
+6.
 (pdftex.def)             Requested size: 153.64394pt x 153.64394pt.
- [24
+ [26
 
  </home/ricky/Rlim/ChromatinConformation/ComponentCalls/CebpE/ComponentAnalysis
 /figs/Koeffler_BM_CebpE_log_qqplot.pdf> </home/ricky/Rlim/ChromatinConformation
@@ -1793,12 +1770,12 @@ CebpE/ComponentAnalysis/figs/Koeffler_BM_CebpE_qqplot.pdf used on input line 34
 ! Undefined control sequence.
 \beamer@doifinframe ...!htp] \centering \subfloat 
                                                   {\includegraphics [width =...
-l.367 \end{frame}
+l.365 \end{frame}
                  
 ? 
 
 </home/ricky/Rlim/ChromatinConformation/ComponentCalls/CebpE/ComponentAnalysis/
-figs/Koeffler_BM_CebpE_GMM_ModelVisualization_log_300_comp2.pdf, id=798, 505.89
+figs/Koeffler_BM_CebpE_GMM_ModelVisualization_log_300_comp2.pdf, id=865, 505.89
 pt x 505.89pt>
 File: /home/ricky/Rlim/ChromatinConformation/ComponentCalls/CebpE/ComponentAnal
 ysis/figs/Koeffler_BM_CebpE_GMM_ModelVisualization_log_300_comp2.pdf Graphic fi
@@ -1808,18 +1785,18 @@ le (type pdf)
 sis/figs/Koeffler_BM_CebpE_GMM_ModelVisualization_log_300_comp2.pdf>
 Package pdftex.def Info: /home/ricky/Rlim/ChromatinConformation/ComponentCalls/
 CebpE/ComponentAnalysis/figs/Koeffler_BM_CebpE_GMM_ModelVisualization_log_300_c
-omp2.pdf used on input line 367.
+omp2.pdf used on input line 365.
 (pdftex.def)             Requested size: 93.95097pt x 72.26761pt.
 
 ! Undefined control sequence.
 \beamer@doifinframe ..._300_comp2.pdf}} \subfloat 
                                                   {\includegraphics [width =...
-l.367 \end{frame}
+l.365 \end{frame}
                  
 ? 
 
 </home/ricky/Rlim/ChromatinConformation/ComponentCalls/CebpE/ComponentAnalysis/
-figs/Koeffler_BM_CebpE_GMM_ModelVisualization_log_300_comp3.pdf, id=799, 505.89
+figs/Koeffler_BM_CebpE_GMM_ModelVisualization_log_300_comp3.pdf, id=866, 505.89
 pt x 505.89pt>
 File: /home/ricky/Rlim/ChromatinConformation/ComponentCalls/CebpE/ComponentAnal
 ysis/figs/Koeffler_BM_CebpE_GMM_ModelVisualization_log_300_comp3.pdf Graphic fi
@@ -1829,18 +1806,18 @@ le (type pdf)
 sis/figs/Koeffler_BM_CebpE_GMM_ModelVisualization_log_300_comp3.pdf>
 Package pdftex.def Info: /home/ricky/Rlim/ChromatinConformation/ComponentCalls/
 CebpE/ComponentAnalysis/figs/Koeffler_BM_CebpE_GMM_ModelVisualization_log_300_c
-omp3.pdf used on input line 367.
+omp3.pdf used on input line 365.
 (pdftex.def)             Requested size: 93.95097pt x 72.26761pt.
 
 ! Undefined control sequence.
 \beamer@doifinframe ..._300_comp3.pdf}} \subfloat 
                                                   {\includegraphics [width =...
-l.367 \end{frame}
+l.365 \end{frame}
                  
 ? 
 
 </home/ricky/Rlim/ChromatinConformation/ComponentCalls/CebpE/ComponentAnalysis/
-figs/Koeffler_BM_CebpE_GMM_ModelVisualization_log_300_comp4.pdf, id=800, 505.89
+figs/Koeffler_BM_CebpE_GMM_ModelVisualization_log_300_comp4.pdf, id=867, 505.89
 pt x 505.89pt>
 File: /home/ricky/Rlim/ChromatinConformation/ComponentCalls/CebpE/ComponentAnal
 ysis/figs/Koeffler_BM_CebpE_GMM_ModelVisualization_log_300_comp4.pdf Graphic fi
@@ -1850,18 +1827,18 @@ le (type pdf)
 sis/figs/Koeffler_BM_CebpE_GMM_ModelVisualization_log_300_comp4.pdf>
 Package pdftex.def Info: /home/ricky/Rlim/ChromatinConformation/ComponentCalls/
 CebpE/ComponentAnalysis/figs/Koeffler_BM_CebpE_GMM_ModelVisualization_log_300_c
-omp4.pdf used on input line 367.
+omp4.pdf used on input line 365.
 (pdftex.def)             Requested size: 93.95097pt x 72.26761pt.
 
 ! Undefined control sequence.
 <recently read> \subfloat 
                           
-l.367 \end{frame}
+l.365 \end{frame}
                  
 ? 
 
 </home/ricky/Rlim/ChromatinConformation/ComponentCalls/CebpE/ComponentAnalysis/
-figs/Koeffler_BM_CebpE_GMM_ModelVisualization_log_300_comp5.pdf, id=801, 505.89
+figs/Koeffler_BM_CebpE_GMM_ModelVisualization_log_300_comp5.pdf, id=868, 505.89
 pt x 505.89pt>
 File: /home/ricky/Rlim/ChromatinConformation/ComponentCalls/CebpE/ComponentAnal
 ysis/figs/Koeffler_BM_CebpE_GMM_ModelVisualization_log_300_comp5.pdf Graphic fi
@@ -1871,18 +1848,18 @@ le (type pdf)
 sis/figs/Koeffler_BM_CebpE_GMM_ModelVisualization_log_300_comp5.pdf>
 Package pdftex.def Info: /home/ricky/Rlim/ChromatinConformation/ComponentCalls/
 CebpE/ComponentAnalysis/figs/Koeffler_BM_CebpE_GMM_ModelVisualization_log_300_c
-omp5.pdf used on input line 367.
+omp5.pdf used on input line 365.
 (pdftex.def)             Requested size: 93.95097pt x 72.26761pt.
 
 ! Undefined control sequence.
 \beamer@doifinframe ..._300_comp5.pdf}} \subfloat 
                                                   {\includegraphics [width =...
-l.367 \end{frame}
+l.365 \end{frame}
                  
 ? 
 
 </home/ricky/Rlim/ChromatinConformation/ComponentCalls/CebpE/ComponentAnalysis/
-figs/Koeffler_BM_CebpE_GMM_ModelVisualization_log_300_comp6.pdf, id=802, 505.89
+figs/Koeffler_BM_CebpE_GMM_ModelVisualization_log_300_comp6.pdf, id=869, 505.89
 pt x 505.89pt>
 File: /home/ricky/Rlim/ChromatinConformation/ComponentCalls/CebpE/ComponentAnal
 ysis/figs/Koeffler_BM_CebpE_GMM_ModelVisualization_log_300_comp6.pdf Graphic fi
@@ -1892,18 +1869,18 @@ le (type pdf)
 sis/figs/Koeffler_BM_CebpE_GMM_ModelVisualization_log_300_comp6.pdf>
 Package pdftex.def Info: /home/ricky/Rlim/ChromatinConformation/ComponentCalls/
 CebpE/ComponentAnalysis/figs/Koeffler_BM_CebpE_GMM_ModelVisualization_log_300_c
-omp6.pdf used on input line 367.
+omp6.pdf used on input line 365.
 (pdftex.def)             Requested size: 93.95097pt x 72.26761pt.
 
 ! Undefined control sequence.
 \beamer@doifinframe ..._300_comp6.pdf}} \subfloat 
                                                   {\includegraphics [width =...
-l.367 \end{frame}
+l.365 \end{frame}
                  
 ? 
 
 </home/ricky/Rlim/ChromatinConformation/ComponentCalls/CebpE/ComponentAnalysis/
-figs/Koeffler_BM_CebpE_GMM_ModelVisualization_log_300_comp7.pdf, id=803, 505.89
+figs/Koeffler_BM_CebpE_GMM_ModelVisualization_log_300_comp7.pdf, id=870, 505.89
 pt x 505.89pt>
 File: /home/ricky/Rlim/ChromatinConformation/ComponentCalls/CebpE/ComponentAnal
 ysis/figs/Koeffler_BM_CebpE_GMM_ModelVisualization_log_300_comp7.pdf Graphic fi
@@ -1913,18 +1890,18 @@ le (type pdf)
 sis/figs/Koeffler_BM_CebpE_GMM_ModelVisualization_log_300_comp7.pdf>
 Package pdftex.def Info: /home/ricky/Rlim/ChromatinConformation/ComponentCalls/
 CebpE/ComponentAnalysis/figs/Koeffler_BM_CebpE_GMM_ModelVisualization_log_300_c
-omp7.pdf used on input line 367.
+omp7.pdf used on input line 365.
 (pdftex.def)             Requested size: 93.95097pt x 72.26761pt.
 
 ! Undefined control sequence.
 <recently read> \subfloat 
                           
-l.367 \end{frame}
+l.365 \end{frame}
                  
 ? 
 
 </home/ricky/Rlim/ChromatinConformation/ComponentCalls/CebpE/ComponentAnalysis/
-figs/Koeffler_BM_CebpE_GMM_ModelVisualization_log_300_comp8.pdf, id=804, 505.89
+figs/Koeffler_BM_CebpE_GMM_ModelVisualization_log_300_comp8.pdf, id=871, 505.89
 pt x 505.89pt>
 File: /home/ricky/Rlim/ChromatinConformation/ComponentCalls/CebpE/ComponentAnal
 ysis/figs/Koeffler_BM_CebpE_GMM_ModelVisualization_log_300_comp8.pdf Graphic fi
@@ -1934,18 +1911,18 @@ le (type pdf)
 sis/figs/Koeffler_BM_CebpE_GMM_ModelVisualization_log_300_comp8.pdf>
 Package pdftex.def Info: /home/ricky/Rlim/ChromatinConformation/ComponentCalls/
 CebpE/ComponentAnalysis/figs/Koeffler_BM_CebpE_GMM_ModelVisualization_log_300_c
-omp8.pdf used on input line 367.
+omp8.pdf used on input line 365.
 (pdftex.def)             Requested size: 93.95097pt x 72.26761pt.
 
 ! Undefined control sequence.
 \beamer@doifinframe ..._300_comp8.pdf}} \subfloat 
                                                   {\includegraphics [width =...
-l.367 \end{frame}
+l.365 \end{frame}
                  
 ? 
 
 </home/ricky/Rlim/ChromatinConformation/ComponentCalls/CebpE/ComponentAnalysis/
-figs/Koeffler_BM_CebpE_GMM_ModelVisualization_log_300_comp9.pdf, id=805, 505.89
+figs/Koeffler_BM_CebpE_GMM_ModelVisualization_log_300_comp9.pdf, id=872, 505.89
 pt x 505.89pt>
 File: /home/ricky/Rlim/ChromatinConformation/ComponentCalls/CebpE/ComponentAnal
 ysis/figs/Koeffler_BM_CebpE_GMM_ModelVisualization_log_300_comp9.pdf Graphic fi
@@ -1955,18 +1932,18 @@ le (type pdf)
 sis/figs/Koeffler_BM_CebpE_GMM_ModelVisualization_log_300_comp9.pdf>
 Package pdftex.def Info: /home/ricky/Rlim/ChromatinConformation/ComponentCalls/
 CebpE/ComponentAnalysis/figs/Koeffler_BM_CebpE_GMM_ModelVisualization_log_300_c
-omp9.pdf used on input line 367.
+omp9.pdf used on input line 365.
 (pdftex.def)             Requested size: 93.95097pt x 72.26761pt.
 
 ! Undefined control sequence.
 \beamer@doifinframe ..._300_comp9.pdf}} \subfloat 
                                                   {\includegraphics [width =...
-l.367 \end{frame}
+l.365 \end{frame}
                  
 ? 
 
 </home/ricky/Rlim/ChromatinConformation/ComponentCalls/CebpE/ComponentAnalysis/
-figs/Koeffler_BM_CebpE_GMM_ModelVisualization_log_300_comp10.pdf, id=806, 505.8
+figs/Koeffler_BM_CebpE_GMM_ModelVisualization_log_300_comp10.pdf, id=873, 505.8
 9pt x 505.89pt>
 File: /home/ricky/Rlim/ChromatinConformation/ComponentCalls/CebpE/ComponentAnal
 ysis/figs/Koeffler_BM_CebpE_GMM_ModelVisualization_log_300_comp10.pdf Graphic f
@@ -1976,9 +1953,9 @@ ile (type pdf)
 sis/figs/Koeffler_BM_CebpE_GMM_ModelVisualization_log_300_comp10.pdf>
 Package pdftex.def Info: /home/ricky/Rlim/ChromatinConformation/ComponentCalls/
 CebpE/ComponentAnalysis/figs/Koeffler_BM_CebpE_GMM_ModelVisualization_log_300_c
-omp10.pdf used on input line 367.
+omp10.pdf used on input line 365.
 (pdftex.def)             Requested size: 93.95097pt x 72.26761pt.
- [25
+ [27
 
  </home/ricky/Rlim/ChromatinConformation/ComponentCalls/CebpE/ComponentAnalysis
 /figs/Koeffler_BM_CebpE_GMM_ModelVisualization_log_300_comp2.pdf> </home/ricky/
@@ -2000,13 +1977,13 @@ Visualization_log_300_comp10.pdf>]
 ! Undefined control sequence.
 \beamer@doifinframe ...e}[H] \centering \subfloat 
                                                   {\includegraphics [width =...
-l.386 \end{frame}
+l.384 \end{frame}
                  
 ? 
 
 </home/ricky/Rlim/ChromatinConformation/ComponentCalls/CebpE/ComponentAnalysis/
 figs/Koeffler_BM_CebpE_GMM_ModelVisualization_log_300_comp2_empVsModel.pdf, id=
-887, 505.89pt x 505.89pt>
+953, 505.89pt x 505.89pt>
 File: /home/ricky/Rlim/ChromatinConformation/ComponentCalls/CebpE/ComponentAnal
 ysis/figs/Koeffler_BM_CebpE_GMM_ModelVisualization_log_300_comp2_empVsModel.pdf
  Graphic file (type pdf)
@@ -2015,18 +1992,18 @@ ysis/figs/Koeffler_BM_CebpE_GMM_ModelVisualization_log_300_comp2_empVsModel.pdf
 sis/figs/Koeffler_BM_CebpE_GMM_ModelVisualization_log_300_comp2_empVsModel.pdf>
 Package pdftex.def Info: /home/ricky/Rlim/ChromatinConformation/ComponentCalls/
 CebpE/ComponentAnalysis/figs/Koeffler_BM_CebpE_GMM_ModelVisualization_log_300_c
-omp2_empVsModel.pdf used on input line 386.
+omp2_empVsModel.pdf used on input line 384.
 (pdftex.def)             Requested size: 93.95097pt x 72.26761pt.
 ! Undefined control sequence.
 \beamer@doifinframe ...empVsModel.pdf}} \subfloat 
                                                   {\includegraphics [width =...
-l.386 \end{frame}
+l.384 \end{frame}
                  
 ? 
 
 </home/ricky/Rlim/ChromatinConformation/ComponentCalls/CebpE/ComponentAnalysis/
 figs/Koeffler_BM_CebpE_GMM_ModelVisualization_log_300_comp3_empVsModel.pdf, id=
-888, 505.89pt x 505.89pt>
+954, 505.89pt x 505.89pt>
 File: /home/ricky/Rlim/ChromatinConformation/ComponentCalls/CebpE/ComponentAnal
 ysis/figs/Koeffler_BM_CebpE_GMM_ModelVisualization_log_300_comp3_empVsModel.pdf
  Graphic file (type pdf)
@@ -2035,18 +2012,18 @@ ysis/figs/Koeffler_BM_CebpE_GMM_ModelVisualization_log_300_comp3_empVsModel.pdf
 sis/figs/Koeffler_BM_CebpE_GMM_ModelVisualization_log_300_comp3_empVsModel.pdf>
 Package pdftex.def Info: /home/ricky/Rlim/ChromatinConformation/ComponentCalls/
 CebpE/ComponentAnalysis/figs/Koeffler_BM_CebpE_GMM_ModelVisualization_log_300_c
-omp3_empVsModel.pdf used on input line 386.
+omp3_empVsModel.pdf used on input line 384.
 (pdftex.def)             Requested size: 93.95097pt x 72.26761pt.
 ! Undefined control sequence.
 \beamer@doifinframe ...empVsModel.pdf}} \subfloat 
                                                   {\includegraphics [width =...
-l.386 \end{frame}
+l.384 \end{frame}
                  
 ? 
 
 </home/ricky/Rlim/ChromatinConformation/ComponentCalls/CebpE/ComponentAnalysis/
 figs/Koeffler_BM_CebpE_GMM_ModelVisualization_log_300_comp4_empVsModel.pdf, id=
-889, 505.89pt x 505.89pt>
+955, 505.89pt x 505.89pt>
 File: /home/ricky/Rlim/ChromatinConformation/ComponentCalls/CebpE/ComponentAnal
 ysis/figs/Koeffler_BM_CebpE_GMM_ModelVisualization_log_300_comp4_empVsModel.pdf
  Graphic file (type pdf)
@@ -2055,18 +2032,18 @@ ysis/figs/Koeffler_BM_CebpE_GMM_ModelVisualization_log_300_comp4_empVsModel.pdf
 sis/figs/Koeffler_BM_CebpE_GMM_ModelVisualization_log_300_comp4_empVsModel.pdf>
 Package pdftex.def Info: /home/ricky/Rlim/ChromatinConformation/ComponentCalls/
 CebpE/ComponentAnalysis/figs/Koeffler_BM_CebpE_GMM_ModelVisualization_log_300_c
-omp4_empVsModel.pdf used on input line 386.
+omp4_empVsModel.pdf used on input line 384.
 (pdftex.def)             Requested size: 93.95097pt x 72.26761pt.
 ! Undefined control sequence.
 <recently read> \subfloat 
                           
-l.386 \end{frame}
+l.384 \end{frame}
                  
 ? 
 
 </home/ricky/Rlim/ChromatinConformation/ComponentCalls/CebpE/ComponentAnalysis/
 figs/Koeffler_BM_CebpE_GMM_ModelVisualization_log_300_comp5_empVsModel.pdf, id=
-890, 505.89pt x 505.89pt>
+956, 505.89pt x 505.89pt>
 File: /home/ricky/Rlim/ChromatinConformation/ComponentCalls/CebpE/ComponentAnal
 ysis/figs/Koeffler_BM_CebpE_GMM_ModelVisualization_log_300_comp5_empVsModel.pdf
  Graphic file (type pdf)
@@ -2075,18 +2052,18 @@ ysis/figs/Koeffler_BM_CebpE_GMM_ModelVisualization_log_300_comp5_empVsModel.pdf
 sis/figs/Koeffler_BM_CebpE_GMM_ModelVisualization_log_300_comp5_empVsModel.pdf>
 Package pdftex.def Info: /home/ricky/Rlim/ChromatinConformation/ComponentCalls/
 CebpE/ComponentAnalysis/figs/Koeffler_BM_CebpE_GMM_ModelVisualization_log_300_c
-omp5_empVsModel.pdf used on input line 386.
+omp5_empVsModel.pdf used on input line 384.
 (pdftex.def)             Requested size: 93.95097pt x 72.26761pt.
 ! Undefined control sequence.
 \beamer@doifinframe ...empVsModel.pdf}} \subfloat 
                                                   {\includegraphics [width =...
-l.386 \end{frame}
+l.384 \end{frame}
                  
 ? 
 
 </home/ricky/Rlim/ChromatinConformation/ComponentCalls/CebpE/ComponentAnalysis/
 figs/Koeffler_BM_CebpE_GMM_ModelVisualization_log_300_comp6_empVsModel.pdf, id=
-891, 505.89pt x 505.89pt>
+957, 505.89pt x 505.89pt>
 File: /home/ricky/Rlim/ChromatinConformation/ComponentCalls/CebpE/ComponentAnal
 ysis/figs/Koeffler_BM_CebpE_GMM_ModelVisualization_log_300_comp6_empVsModel.pdf
  Graphic file (type pdf)
@@ -2095,18 +2072,18 @@ ysis/figs/Koeffler_BM_CebpE_GMM_ModelVisualization_log_300_comp6_empVsModel.pdf
 sis/figs/Koeffler_BM_CebpE_GMM_ModelVisualization_log_300_comp6_empVsModel.pdf>
 Package pdftex.def Info: /home/ricky/Rlim/ChromatinConformation/ComponentCalls/
 CebpE/ComponentAnalysis/figs/Koeffler_BM_CebpE_GMM_ModelVisualization_log_300_c
-omp6_empVsModel.pdf used on input line 386.
+omp6_empVsModel.pdf used on input line 384.
 (pdftex.def)             Requested size: 93.95097pt x 72.26761pt.
 ! Undefined control sequence.
 \beamer@doifinframe ...empVsModel.pdf}} \subfloat 
                                                   {\includegraphics [width =...
-l.386 \end{frame}
+l.384 \end{frame}
                  
 ? 
 
 </home/ricky/Rlim/ChromatinConformation/ComponentCalls/CebpE/ComponentAnalysis/
 figs/Koeffler_BM_CebpE_GMM_ModelVisualization_log_300_comp7_empVsModel.pdf, id=
-892, 505.89pt x 505.89pt>
+958, 505.89pt x 505.89pt>
 File: /home/ricky/Rlim/ChromatinConformation/ComponentCalls/CebpE/ComponentAnal
 ysis/figs/Koeffler_BM_CebpE_GMM_ModelVisualization_log_300_comp7_empVsModel.pdf
  Graphic file (type pdf)
@@ -2115,18 +2092,18 @@ ysis/figs/Koeffler_BM_CebpE_GMM_ModelVisualization_log_300_comp7_empVsModel.pdf
 sis/figs/Koeffler_BM_CebpE_GMM_ModelVisualization_log_300_comp7_empVsModel.pdf>
 Package pdftex.def Info: /home/ricky/Rlim/ChromatinConformation/ComponentCalls/
 CebpE/ComponentAnalysis/figs/Koeffler_BM_CebpE_GMM_ModelVisualization_log_300_c
-omp7_empVsModel.pdf used on input line 386.
+omp7_empVsModel.pdf used on input line 384.
 (pdftex.def)             Requested size: 93.95097pt x 72.26761pt.
 ! Undefined control sequence.
 <recently read> \subfloat 
                           
-l.386 \end{frame}
+l.384 \end{frame}
                  
 ? 
 
 </home/ricky/Rlim/ChromatinConformation/ComponentCalls/CebpE/ComponentAnalysis/
 figs/Koeffler_BM_CebpE_GMM_ModelVisualization_log_300_comp8_empVsModel.pdf, id=
-893, 505.89pt x 505.89pt>
+959, 505.89pt x 505.89pt>
 File: /home/ricky/Rlim/ChromatinConformation/ComponentCalls/CebpE/ComponentAnal
 ysis/figs/Koeffler_BM_CebpE_GMM_ModelVisualization_log_300_comp8_empVsModel.pdf
  Graphic file (type pdf)
@@ -2135,18 +2112,18 @@ ysis/figs/Koeffler_BM_CebpE_GMM_ModelVisualization_log_300_comp8_empVsModel.pdf
 sis/figs/Koeffler_BM_CebpE_GMM_ModelVisualization_log_300_comp8_empVsModel.pdf>
 Package pdftex.def Info: /home/ricky/Rlim/ChromatinConformation/ComponentCalls/
 CebpE/ComponentAnalysis/figs/Koeffler_BM_CebpE_GMM_ModelVisualization_log_300_c
-omp8_empVsModel.pdf used on input line 386.
+omp8_empVsModel.pdf used on input line 384.
 (pdftex.def)             Requested size: 93.95097pt x 72.26761pt.
 ! Undefined control sequence.
 \beamer@doifinframe ...empVsModel.pdf}} \subfloat 
                                                   {\includegraphics [width =...
-l.386 \end{frame}
+l.384 \end{frame}
                  
 ? 
 
 </home/ricky/Rlim/ChromatinConformation/ComponentCalls/CebpE/ComponentAnalysis/
 figs/Koeffler_BM_CebpE_GMM_ModelVisualization_log_300_comp9_empVsModel.pdf, id=
-894, 505.89pt x 505.89pt>
+960, 505.89pt x 505.89pt>
 File: /home/ricky/Rlim/ChromatinConformation/ComponentCalls/CebpE/ComponentAnal
 ysis/figs/Koeffler_BM_CebpE_GMM_ModelVisualization_log_300_comp9_empVsModel.pdf
  Graphic file (type pdf)
@@ -2155,18 +2132,18 @@ ysis/figs/Koeffler_BM_CebpE_GMM_ModelVisualization_log_300_comp9_empVsModel.pdf
 sis/figs/Koeffler_BM_CebpE_GMM_ModelVisualization_log_300_comp9_empVsModel.pdf>
 Package pdftex.def Info: /home/ricky/Rlim/ChromatinConformation/ComponentCalls/
 CebpE/ComponentAnalysis/figs/Koeffler_BM_CebpE_GMM_ModelVisualization_log_300_c
-omp9_empVsModel.pdf used on input line 386.
+omp9_empVsModel.pdf used on input line 384.
 (pdftex.def)             Requested size: 93.95097pt x 72.26761pt.
 ! Undefined control sequence.
 \beamer@doifinframe ...empVsModel.pdf}} \subfloat 
                                                   {\includegraphics [width =...
-l.386 \end{frame}
+l.384 \end{frame}
                  
 ? 
 
 </home/ricky/Rlim/ChromatinConformation/ComponentCalls/CebpE/ComponentAnalysis/
 figs/Koeffler_BM_CebpE_GMM_ModelVisualization_log_300_comp10_empVsModel.pdf, id
-=895, 505.89pt x 505.89pt>
+=961, 505.89pt x 505.89pt>
 File: /home/ricky/Rlim/ChromatinConformation/ComponentCalls/CebpE/ComponentAnal
 ysis/figs/Koeffler_BM_CebpE_GMM_ModelVisualization_log_300_comp10_empVsModel.pd
 f Graphic file (type pdf)
@@ -2176,9 +2153,9 @@ sis/figs/Koeffler_BM_CebpE_GMM_ModelVisualization_log_300_comp10_empVsModel.pdf
 >
 Package pdftex.def Info: /home/ricky/Rlim/ChromatinConformation/ComponentCalls/
 CebpE/ComponentAnalysis/figs/Koeffler_BM_CebpE_GMM_ModelVisualization_log_300_c
-omp10_empVsModel.pdf used on input line 386.
+omp10_empVsModel.pdf used on input line 384.
 (pdftex.def)             Requested size: 93.95097pt x 72.26761pt.
- [26
+ [28
 
  </home/ricky/Rlim/ChromatinConformation/ComponentCalls/CebpE/ComponentAnalysis
 /figs/Koeffler_BM_CebpE_GMM_ModelVisualization_log_300_comp2_empVsModel.pdf> </
@@ -2203,152 +2180,152 @@ Runaway argument?
 ! Paragraph ended before \flalign was complete.
 <to be read again> 
                    \par 
-l.402 \end{frame}
+l.400 \end{frame}
                  
 ? 
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.402 \end{frame}
+l.400 \end{frame}
                  
 ? 
 ! Missing \endgroup inserted.
 <inserted text> 
                 \endgroup 
-l.402 \end{frame}
+l.400 \end{frame}
                  
 ? 
 ! Display math should end with $$.
 <to be read again> 
                    \par 
-l.402 \end{frame}
+l.400 \end{frame}
                  
 ? 
 ! Misplaced alignment tab character &.
 \beamer@doifinframe ...er. \begin {flalign} \par &
                                                   AIC = $ -2 \times \log L +...
-l.402 \end{frame}
+l.400 \end{frame}
                  
 ? 
 ! Misplaced alignment tab character &.
 \beamer@doifinframe ... $ -2 \times \log L + 2*P &
                                                   & \par &BIC = $ -2 \times ...
-l.402 \end{frame}
+l.400 \end{frame}
                  
 ? 
 ! Misplaced alignment tab character &.
 \beamer@doifinframe ...$ -2 \times \log L + 2*P &&
                                                    \par &BIC = $ -2 \times \...
-l.402 \end{frame}
+l.400 \end{frame}
                  
 ? 
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.402 \end{frame}
+l.400 \end{frame}
                  
 ? 
 ! Misplaced alignment tab character &.
 \beamer@doifinframe ...imes \log L + 2*P && \par &
                                                   BIC = $ -2 \times \log L +...
-l.402 \end{frame}
+l.400 \end{frame}
                  
 ? 
 ! Misplaced alignment tab character &.
 \beamer@doifinframe ...times \log L + \log (n)*P &
                                                   & \par &$L$ is likelihood ...
-l.402 \end{frame}
+l.400 \end{frame}
                  
 ? 
 ! Misplaced alignment tab character &.
 \beamer@doifinframe ...imes \log L + \log (n)*P &&
                                                    \par &$L$ is likelihood &...
-l.402 \end{frame}
+l.400 \end{frame}
                  
 ? 
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.402 \end{frame}
+l.400 \end{frame}
                  
 ? 
 ! Misplaced alignment tab character &.
 \beamer@doifinframe ...og L + \log (n)*P && \par &
                                                   $L$ is likelihood && \par ...
-l.402 \end{frame}
+l.400 \end{frame}
                  
 ? 
 ! Misplaced alignment tab character &.
 \beamer@doifinframe ...& \par &$L$ is likelihood &
                                                   & \par &$P$ is the number ...
-l.402 \end{frame}
+l.400 \end{frame}
                  
 ? 
 ! Misplaced alignment tab character &.
 \beamer@doifinframe ... \par &$L$ is likelihood &&
                                                    \par &$P$ is the number o...
-l.402 \end{frame}
+l.400 \end{frame}
                  
 ? 
 ! Misplaced alignment tab character &.
 \beamer@doifinframe ...$L$ is likelihood && \par &
                                                   $P$ is the number of param...
-l.402 \end{frame}
+l.400 \end{frame}
                  
 ? 
 ! Misplaced alignment tab character &.
 \beamer@doifinframe ... the number of parameters &
                                                   & \par \end {flalign} \end...
-l.402 \end{frame}
+l.400 \end{frame}
                  
 ? 
 ! Misplaced alignment tab character &.
 \beamer@doifinframe ...the number of parameters &&
                                                    \par \end {flalign} \end ...
-l.402 \end{frame}
+l.400 \end{frame}
                  
 ? 
 ! Misplaced \cr.
 \math@cr@@@ ->\cr 
                   
-l.402 \end{frame}
+l.400 \end{frame}
                  
 ? 
 ! Misplaced \noalign.
 \math@cr@@ ... \iffalse }\fi \math@cr@@@ \noalign 
                                                   {\vskip #1\relax }
-l.402 \end{frame}
+l.400 \end{frame}
                  
 ? 
 ! Misplaced \noalign.
 \black@ #1->\noalign 
                      {\ifdim #1>\displaywidth \dimen@ \prevdepth \nointerlin...
-l.402 \end{frame}
+l.400 \end{frame}
                  
 ? 
 ! Extra }, or forgotten \endgroup.
 \endalign ->\math@cr \black@ \totwidth@ \egroup 
                                                 \ifingather@ \restorealignst...
-l.402 \end{frame}
+l.400 \end{frame}
                  
 ? 
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.402 \end{frame}
+l.400 \end{frame}
                  
 ? 
 ! Display math should end with $$.
 <to be read again> 
                    \endgroup 
-l.402 \end{frame}
+l.400 \end{frame}
                  
 ? 
-[27
+[29
 
 ]
 </home/ricky/Rlim/ChromatinConformation/ComponentCalls/CebpE/ComponentAnalysis/
-figs/Koeffler_BM_CebpE_GMM_ModelAssessment_log_300_AICBIC.pdf, id=1008, 505.89p
+figs/Koeffler_BM_CebpE_GMM_ModelAssessment_log_300_AICBIC.pdf, id=1074, 505.89p
 t x 505.89pt>
 File: /home/ricky/Rlim/ChromatinConformation/ComponentCalls/CebpE/ComponentAnal
 ysis/figs/Koeffler_BM_CebpE_GMM_ModelAssessment_log_300_AICBIC.pdf Graphic file
@@ -2358,36 +2335,36 @@ ysis/figs/Koeffler_BM_CebpE_GMM_ModelAssessment_log_300_AICBIC.pdf Graphic file
 sis/figs/Koeffler_BM_CebpE_GMM_ModelAssessment_log_300_AICBIC.pdf>
 Package pdftex.def Info: /home/ricky/Rlim/ChromatinConformation/ComponentCalls/
 CebpE/ComponentAnalysis/figs/Koeffler_BM_CebpE_GMM_ModelAssessment_log_300_AICB
-IC.pdf used on input line 409.
+IC.pdf used on input line 407.
 (pdftex.def)             Requested size: 245.83493pt x 215.1046pt.
- [28
+ [30
 
  </home/ricky/Rlim/ChromatinConformation/ComponentCalls/CebpE/ComponentAnalysis
 /figs/Koeffler_BM_CebpE_GMM_ModelAssessment_log_300_AICBIC.pdf>]
 
-! LaTeX Error: \begin{itemize} on input line 423 ended by \end{enumerate}.
+! LaTeX Error: \begin{itemize} on input line 421 ended by \end{enumerate}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.423 \end{frame}
+l.421 \end{frame}
                  
 ? 
-[29
+[31
 
 ]
 
-! LaTeX Error: \begin{itemize} on input line 423 ended by \end{enumerate}.
+! LaTeX Error: \begin{itemize} on input line 421 ended by \end{enumerate}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.423 \end{frame}
+l.421 \end{frame}
                  
 ? 
-[30
+[32
 
 ]
 
@@ -2397,126 +2374,94 @@ See the pgf package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.460 \end{frame}
+l.458 \end{frame}
                  
 ? 
 
-Overfull \hbox (11.23407pt too wide) in paragraph at lines 460--460
+Overfull \hbox (11.23407pt too wide) in paragraph at lines 458--458
  [] 
  []
 
-[31
+[33
 
 ]
-Underfull \hbox (badness 7576) in paragraph at lines 468--468
- [][][][]\T1/LinuxBiolinumT-TLF/m/n/10.95 Motif Calls us-ing Cent-dist 
+Underfull \hbox (badness 6658) in paragraph at lines 468--468
+ [][][][]\T1/LinuxBiolinumT-TLF/m/n/10.95 Motif Calls us-ing Cent-dist [] 
  []
 
 
 Overfull \hbox (7.69917pt too wide) in paragraph at lines 468--468
-[][]  
+[][] 
  []
 
-[32
+[34
 
 ]
 </home/ricky/Rlim/ChromatinConformation/MotifCalls/CebpE/Output/CentDist/Koeffl
-er_BM_CebpE_GMM_ModelAssignment_log_300_group1_compSorted3/CENTDIST_Koeffler_BM
-_CebpE_GMM_ModelAssignment_log_300_group1_compSorted3_page1.pdf, id=1162, 846.1
-6125pt x 598.235pt>
+er_BM_CebpE_GMM_ModelAssignment_log_300_group1_compSorted3/top3.png, id=1227, 1
+217.0268pt x 635.976pt>
 File: /home/ricky/Rlim/ChromatinConformation/MotifCalls/CebpE/Output/CentDist/K
-oeffler_BM_CebpE_GMM_ModelAssignment_log_300_group1_compSorted3/CENTDIST_Koeffl
-er_BM_CebpE_GMM_ModelAssignment_log_300_group1_compSorted3_page1.pdf Graphic fi
-le (type pdf)
+oeffler_BM_CebpE_GMM_ModelAssignment_log_300_group1_compSorted3/top3.png Graphi
+c file (type png)
 
 <use /home/ricky/Rlim/ChromatinConformation/MotifCalls/CebpE/Output/CentDist/Ko
-effler_BM_CebpE_GMM_ModelAssignment_log_300_group1_compSorted3/CENTDIST_Koeffle
-r_BM_CebpE_GMM_ModelAssignment_log_300_group1_compSorted3_page1.pdf>
+effler_BM_CebpE_GMM_ModelAssignment_log_300_group1_compSorted3/top3.png>
 Package pdftex.def Info: /home/ricky/Rlim/ChromatinConformation/MotifCalls/Cebp
 E/Output/CentDist/Koeffler_BM_CebpE_GMM_ModelAssignment_log_300_group1_compSort
-ed3/CENTDIST_Koeffler_BM_CebpE_GMM_ModelAssignment_log_300_group1_compSorted3_p
-age1.pdf used on input line 476.
-(pdftex.def)             Requested size: 307.29047pt x 184.37378pt.
- [33
+ed3/top3.png used on input line 476.
+(pdftex.def)             Requested size: 307.28291pt x 184.37009pt.
+
+[35
 
  </home/ricky/Rlim/ChromatinConformation/MotifCalls/CebpE/Output/CentDist/Koeff
-ler_BM_CebpE_GMM_ModelAssignment_log_300_group1_compSorted3/CENTDIST_Koeffler_B
-M_CebpE_GMM_ModelAssignment_log_300_group1_compSorted3_page1.pdf
-
-pdfTeX warning: pdflatex (file /home/ricky/Rlim/ChromatinConformation/MotifCall
-s/CebpE/Output/CentDist/Koeffler_BM_CebpE_GMM_ModelAssignment_log_300_group1_co
-mpSorted3/CENTDIST_Koeffler_BM_CebpE_GMM_ModelAssignment_log_300_group1_compSor
-ted3_page1.pdf): PDF inclusion: invalid other resource which is no dict (key 'P
-rocSets', type <array>); ignored.
->]
+ler_BM_CebpE_GMM_ModelAssignment_log_300_group1_compSorted3/top3.png>]
 </home/ricky/Rlim/ChromatinConformation/MotifCalls/CebpE/Output/CentDist/Koeffl
-er_BM_CebpE_GMM_ModelAssignment_log_300_group2_compSorted3/CENTDIST_Koeffler_BM
-_CebpE_GMM_ModelAssignment_log_300_group2_compSorted3_page1.pdf, id=1252, 846.1
-6125pt x 598.235pt>
+er_BM_CebpE_GMM_ModelAssignment_log_300_group2_compSorted3/top3.png, id=1253, 1
+220.8812pt x 635.976pt>
 File: /home/ricky/Rlim/ChromatinConformation/MotifCalls/CebpE/Output/CentDist/K
-oeffler_BM_CebpE_GMM_ModelAssignment_log_300_group2_compSorted3/CENTDIST_Koeffl
-er_BM_CebpE_GMM_ModelAssignment_log_300_group2_compSorted3_page1.pdf Graphic fi
-le (type pdf)
+oeffler_BM_CebpE_GMM_ModelAssignment_log_300_group2_compSorted3/top3.png Graphi
+c file (type png)
 
 <use /home/ricky/Rlim/ChromatinConformation/MotifCalls/CebpE/Output/CentDist/Ko
-effler_BM_CebpE_GMM_ModelAssignment_log_300_group2_compSorted3/CENTDIST_Koeffle
-r_BM_CebpE_GMM_ModelAssignment_log_300_group2_compSorted3_page1.pdf>
+effler_BM_CebpE_GMM_ModelAssignment_log_300_group2_compSorted3/top3.png>
 Package pdftex.def Info: /home/ricky/Rlim/ChromatinConformation/MotifCalls/Cebp
 E/Output/CentDist/Koeffler_BM_CebpE_GMM_ModelAssignment_log_300_group2_compSort
-ed3/CENTDIST_Koeffler_BM_CebpE_GMM_ModelAssignment_log_300_group2_compSorted3_p
-age1.pdf used on input line 483.
-(pdftex.def)             Requested size: 307.29047pt x 184.37378pt.
- [34
+ed3/top3.png used on input line 483.
+(pdftex.def)             Requested size: 307.28738pt x 184.37009pt.
+
+[36
 
  </home/ricky/Rlim/ChromatinConformation/MotifCalls/CebpE/Output/CentDist/Koeff
-ler_BM_CebpE_GMM_ModelAssignment_log_300_group2_compSorted3/CENTDIST_Koeffler_B
-M_CebpE_GMM_ModelAssignment_log_300_group2_compSorted3_page1.pdf
-
-pdfTeX warning: pdflatex (file /home/ricky/Rlim/ChromatinConformation/MotifCall
-s/CebpE/Output/CentDist/Koeffler_BM_CebpE_GMM_ModelAssignment_log_300_group2_co
-mpSorted3/CENTDIST_Koeffler_BM_CebpE_GMM_ModelAssignment_log_300_group2_compSor
-ted3_page1.pdf): PDF inclusion: invalid other resource which is no dict (key 'P
-rocSets', type <array>); ignored.
->]
+ler_BM_CebpE_GMM_ModelAssignment_log_300_group2_compSorted3/top3.png>]
 </home/ricky/Rlim/ChromatinConformation/MotifCalls/CebpE/Output/CentDist/Koeffl
-er_BM_CebpE_GMM_ModelAssignment_log_300_group3_compSorted3/CENTDIST_Koeffler_BM
-_CebpE_GMM_ModelAssignment_log_300_group3_compSorted3_page1.pdf, id=1341, 846.1
-6125pt x 598.235pt>
+er_BM_CebpE_GMM_ModelAssignment_log_300_group3_compSorted3/top3.png, id=1279, 1
+226.181pt x 635.976pt>
 File: /home/ricky/Rlim/ChromatinConformation/MotifCalls/CebpE/Output/CentDist/K
-oeffler_BM_CebpE_GMM_ModelAssignment_log_300_group3_compSorted3/CENTDIST_Koeffl
-er_BM_CebpE_GMM_ModelAssignment_log_300_group3_compSorted3_page1.pdf Graphic fi
-le (type pdf)
+oeffler_BM_CebpE_GMM_ModelAssignment_log_300_group3_compSorted3/top3.png Graphi
+c file (type png)
 
 <use /home/ricky/Rlim/ChromatinConformation/MotifCalls/CebpE/Output/CentDist/Ko
-effler_BM_CebpE_GMM_ModelAssignment_log_300_group3_compSorted3/CENTDIST_Koeffle
-r_BM_CebpE_GMM_ModelAssignment_log_300_group3_compSorted3_page1.pdf>
+effler_BM_CebpE_GMM_ModelAssignment_log_300_group3_compSorted3/top3.png>
 Package pdftex.def Info: /home/ricky/Rlim/ChromatinConformation/MotifCalls/Cebp
 E/Output/CentDist/Koeffler_BM_CebpE_GMM_ModelAssignment_log_300_group3_compSort
-ed3/CENTDIST_Koeffler_BM_CebpE_GMM_ModelAssignment_log_300_group3_compSorted3_p
-age1.pdf used on input line 490.
-(pdftex.def)             Requested size: 307.29047pt x 184.37378pt.
- [35
+ed3/top3.png used on input line 490.
+(pdftex.def)             Requested size: 307.2929pt x 184.37009pt.
+
+[37
 
  </home/ricky/Rlim/ChromatinConformation/MotifCalls/CebpE/Output/CentDist/Koeff
-ler_BM_CebpE_GMM_ModelAssignment_log_300_group3_compSorted3/CENTDIST_Koeffler_B
-M_CebpE_GMM_ModelAssignment_log_300_group3_compSorted3_page1.pdf
+ler_BM_CebpE_GMM_ModelAssignment_log_300_group3_compSorted3/top3.png>]
+[38
 
-pdfTeX warning: pdflatex (file /home/ricky/Rlim/ChromatinConformation/MotifCall
-s/CebpE/Output/CentDist/Koeffler_BM_CebpE_GMM_ModelAssignment_log_300_group3_co
-mpSorted3/CENTDIST_Koeffler_BM_CebpE_GMM_ModelAssignment_log_300_group3_compSor
-ted3_page1.pdf): PDF inclusion: invalid other resource which is no dict (key 'P
-rocSets', type <array>); ignored.
->] [36
+] [39
 
-] [37
-
-] <../Images/LocalClustering.png, id=1495, 684.8787pt x 548.2884pt>
+] <../Images/LocalClustering.png, id=1369, 684.8787pt x 548.2884pt>
 File: ../Images/LocalClustering.png Graphic file (type png)
 
 <use ../Images/LocalClustering.png>
 Package pdftex.def Info: ../Images/LocalClustering.png used on input line 524.
 (pdftex.def)             Requested size: 291.35739pt x 233.24956pt.
- [38
+ [40
 
  <../Images/LocalClustering.png
 
@@ -2525,80 +2470,48 @@ pdfTeX warning: pdflatex (file ../Images/LocalClustering.png): large interlaced
 >]
 </home/ricky/Rlim/ChromatinConformation/MotifCalls/CebpE/Output/CentDist/Koeffl
 er_BM_CebpE_GMM_BiclusterAssignment_SinglePeakFilteredOut_log_300_compSorted3_d
-ist3kb_direct/CENTDIST_Koeffler_BM_CebpE_GMM_BiclusterAssignment_SinglePeakFilt
-eredOut_log_300_compSorted3_dist3kb_direct_page1.pdf, id=1500, 846.16125pt x 59
-8.235pt>
+ist3kb_direct/top3.png, id=1374, 1230.196pt x 635.976pt>
 File: /home/ricky/Rlim/ChromatinConformation/MotifCalls/CebpE/Output/CentDist/K
 oeffler_BM_CebpE_GMM_BiclusterAssignment_SinglePeakFilteredOut_log_300_compSort
-ed3_dist3kb_direct/CENTDIST_Koeffler_BM_CebpE_GMM_BiclusterAssignment_SinglePea
-kFilteredOut_log_300_compSorted3_dist3kb_direct_page1.pdf Graphic file (type pd
-f)
+ed3_dist3kb_direct/top3.png Graphic file (type png)
 
 <use /home/ricky/Rlim/ChromatinConformation/MotifCalls/CebpE/Output/CentDist/Ko
 effler_BM_CebpE_GMM_BiclusterAssignment_SinglePeakFilteredOut_log_300_compSorte
-d3_dist3kb_direct/CENTDIST_Koeffler_BM_CebpE_GMM_BiclusterAssignment_SinglePeak
-FilteredOut_log_300_compSorted3_dist3kb_direct_page1.pdf>
+d3_dist3kb_direct/top3.png>
 Package pdftex.def Info: /home/ricky/Rlim/ChromatinConformation/MotifCalls/Cebp
 E/Output/CentDist/Koeffler_BM_CebpE_GMM_BiclusterAssignment_SinglePeakFilteredO
-ut_log_300_compSorted3_dist3kb_direct/CENTDIST_Koeffler_BM_CebpE_GMM_BiclusterA
-ssignment_SinglePeakFilteredOut_log_300_compSorted3_dist3kb_direct_page1.pdf us
-ed on input line 532.
-(pdftex.def)             Requested size: 307.29047pt x 184.37378pt.
- [39
+ut_log_300_compSorted3_dist3kb_direct/top3.png used on input line 532.
+(pdftex.def)             Requested size: 307.28545pt x 184.37009pt.
+ [41
 
  </home/ricky/Rlim/ChromatinConformation/MotifCalls/CebpE/Output/CentDist/Koeff
 ler_BM_CebpE_GMM_BiclusterAssignment_SinglePeakFilteredOut_log_300_compSorted3_
-dist3kb_direct/CENTDIST_Koeffler_BM_CebpE_GMM_BiclusterAssignment_SinglePeakFil
-teredOut_log_300_compSorted3_dist3kb_direct_page1.pdf
-
-pdfTeX warning: pdflatex (file /home/ricky/Rlim/ChromatinConformation/MotifCall
-s/CebpE/Output/CentDist/Koeffler_BM_CebpE_GMM_BiclusterAssignment_SinglePeakFil
-teredOut_log_300_compSorted3_dist3kb_direct/CENTDIST_Koeffler_BM_CebpE_GMM_Bicl
-usterAssignment_SinglePeakFilteredOut_log_300_compSorted3_dist3kb_direct_page1.
-pdf): PDF inclusion: invalid other resource which is no dict (key 'ProcSets', t
-ype <array>); ignored.
->]
+dist3kb_direct/top3.png>]
 </home/ricky/Rlim/ChromatinConformation/MotifCalls/CebpE/Output/CentDist/Koeffl
 er_BM_CebpE_GMM_BiclusterAssignment_SinglePeakFilteredOut_log_300_compSorted3_d
-ist3kb_indirect/CENTDIST_Koeffler_BM_CebpE_GMM_BiclusterAssignment_SinglePeakFi
-lteredOut_log_300_compSorted3_dist3kb_indirect_page1.pdf, id=1591, 846.16125pt 
-x 598.235pt>
+ist3kb_indirect/top3.png, id=1400, 1222.166pt x 635.976pt>
 File: /home/ricky/Rlim/ChromatinConformation/MotifCalls/CebpE/Output/CentDist/K
 oeffler_BM_CebpE_GMM_BiclusterAssignment_SinglePeakFilteredOut_log_300_compSort
-ed3_dist3kb_indirect/CENTDIST_Koeffler_BM_CebpE_GMM_BiclusterAssignment_SingleP
-eakFilteredOut_log_300_compSorted3_dist3kb_indirect_page1.pdf Graphic file (typ
-e pdf)
+ed3_dist3kb_indirect/top3.png Graphic file (type png)
 
 <use /home/ricky/Rlim/ChromatinConformation/MotifCalls/CebpE/Output/CentDist/Ko
 effler_BM_CebpE_GMM_BiclusterAssignment_SinglePeakFilteredOut_log_300_compSorte
-d3_dist3kb_indirect/CENTDIST_Koeffler_BM_CebpE_GMM_BiclusterAssignment_SinglePe
-akFilteredOut_log_300_compSorted3_dist3kb_indirect_page1.pdf>
+d3_dist3kb_indirect/top3.png>
 Package pdftex.def Info: /home/ricky/Rlim/ChromatinConformation/MotifCalls/Cebp
 E/Output/CentDist/Koeffler_BM_CebpE_GMM_BiclusterAssignment_SinglePeakFilteredO
-ut_log_300_compSorted3_dist3kb_indirect/CENTDIST_Koeffler_BM_CebpE_GMM_Bicluste
-rAssignment_SinglePeakFilteredOut_log_300_compSorted3_dist3kb_indirect_page1.pd
-f used on input line 539.
-(pdftex.def)             Requested size: 307.29047pt x 184.37378pt.
- [40
+ut_log_300_compSorted3_dist3kb_indirect/top3.png used on input line 539.
+(pdftex.def)             Requested size: 307.27509pt x 184.37009pt.
+ [42
 
  </home/ricky/Rlim/ChromatinConformation/MotifCalls/CebpE/Output/CentDist/Koeff
 ler_BM_CebpE_GMM_BiclusterAssignment_SinglePeakFilteredOut_log_300_compSorted3_
-dist3kb_indirect/CENTDIST_Koeffler_BM_CebpE_GMM_BiclusterAssignment_SinglePeakF
-ilteredOut_log_300_compSorted3_dist3kb_indirect_page1.pdf
+dist3kb_indirect/top3.png>] [43
 
-pdfTeX warning: pdflatex (file /home/ricky/Rlim/ChromatinConformation/MotifCall
-s/CebpE/Output/CentDist/Koeffler_BM_CebpE_GMM_BiclusterAssignment_SinglePeakFil
-teredOut_log_300_compSorted3_dist3kb_indirect/CENTDIST_Koeffler_BM_CebpE_GMM_Bi
-clusterAssignment_SinglePeakFilteredOut_log_300_compSorted3_dist3kb_indirect_pa
-ge1.pdf): PDF inclusion: invalid other resource which is no dict (key 'ProcSets
-', type <array>); ignored.
->] [41
-
-] [42
+] [44
 
 ]
 </home/ricky/Rlim/Presentations/22.05.15-CSIMeeting/Figures/geneAnnotation_page
-1.pdf, id=1737, 1027.84pt x 770.88pt>
+1.pdf, id=1483, 1027.84pt x 770.88pt>
 File: /home/ricky/Rlim/Presentations/22.05.15-CSIMeeting/Figures/geneAnnotation
 _page1.pdf Graphic file (type pdf)
 
@@ -2611,12 +2524,12 @@ ures/geneAnnotation_page1.pdf used on input line 553.
 Overfull \vbox (46.14128pt too high) detected at line 553
  []
 
-[43
+[45
 
  </home/ricky/Rlim/Presentations/22.05.15-CSIMeeting/Figures/geneAnnotation_pag
 e1.pdf>]
 </home/ricky/Rlim/Presentations/22.05.15-CSIMeeting/Figures/geneAnnotation_page
-2.pdf, id=1779, 1027.84pt x 770.88pt>
+2.pdf, id=1525, 1027.84pt x 770.88pt>
 File: /home/ricky/Rlim/Presentations/22.05.15-CSIMeeting/Figures/geneAnnotation
 _page2.pdf Graphic file (type pdf)
 
@@ -2629,10 +2542,12 @@ ures/geneAnnotation_page2.pdf used on input line 559.
 Overfull \vbox (46.14128pt too high) detected at line 559
  []
 
-[44
+[46
 
  </home/ricky/Rlim/Presentations/22.05.15-CSIMeeting/Figures/geneAnnotation_pag
-e2.pdf>]
+e2.pdf>] [47
+
+]
 \tf@nav=\write6
 \openout6 = `labMeeting.nav'.
 
@@ -2642,21 +2557,21 @@ e2.pdf>]
 \tf@snm=\write8
 \openout8 = `labMeeting.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 561.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 561.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 573.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 573.
  (./labMeeting.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 561.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 561.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 573.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 573.
 Package rerunfilecheck Info: File `labMeeting.out' has not changed.
-(rerunfilecheck)             Checksum: 70B2A09F2A9A4D08AEADAE80E866790C;478.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 561.
+(rerunfilecheck)             Checksum: 0FA649451DECDAA8D3EFC64829FB4475;492.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 573.
  ) 
 Here is how much of TeX's memory you used:
- 25795 strings out of 495028
- 515555 string characters out of 6181497
- 649562 words of memory out of 5000000
- 28293 multiletter control sequences out of 15000+600000
- 122396 words of font info for 87 fonts, out of 8000000 for 9000
+ 25820 strings out of 495028
+ 514191 string characters out of 6181497
+ 656357 words of memory out of 5000000
+ 28309 multiletter control sequences out of 15000+600000
+ 133883 words of font info for 95 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  53i,19n,92p,399b,1082s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/libertine/lbtn_25tcsq.enc}{/us
@@ -2672,10 +2587,10 @@ dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/f
 onts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/t
 ype1/public/amsfonts/cm/cmss10.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
 ublic/amsfonts/cm/cmsy10.pfb>
-Output written on labMeeting.pdf (44 pages, 3815091 bytes).
+Output written on labMeeting.pdf (47 pages, 3284161 bytes).
 PDF statistics:
- 1871 PDF objects out of 2073 (max. 8388607)
- 1473 compressed objects within 15 object streams
- 82 named destinations out of 1000 (max. 500000)
+ 1641 PDF objects out of 1728 (max. 8388607)
+ 1467 compressed objects within 15 object streams
+ 87 named destinations out of 1000 (max. 500000)
  312 words of extra memory for PDF output out of 10000 (max. 10000000)
 

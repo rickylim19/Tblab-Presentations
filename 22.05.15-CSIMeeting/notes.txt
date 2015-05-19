@@ -7,3 +7,26 @@ Peak functional annotation:
 
 - Classical: assign peak to its closest gene
 - This method: assign peak to its closest promoter and clusters the peaks in close proximity to the same gene
+
+- Title: ChIPseq signal
+- ChIPseq digram with DNA!
+- Mixture chromatin, plot direct and indirect and mixture add with real gaussian
+- Remove pdf on mixture model
+- ChIPseq signals
+- Input in the flow chart is a BAM
+- Change the colour from blue -> white
+- MACS and jahmm 2 author references
+- Explain why two different peak callers (say something about the peak scores and bias of the called peaks)
+- Take-home: MACS2 able to find the peak, however the estimated scores are less fit than jahmm
+- Summary slide for component calls, add figure fitted with 3 components
+- Centdist explains -> with reference from authors
+- Centdist shows only the top 3 with the components fitted in the ChIPseq
+- Component2 -> started to see ETS family members
+- Mix model filter out component 1
+
+
+
+Acknowledgment
+
+- Tong Yin (CEDARS SINAI Hospital)
+- Philip Koeffler (CSI)

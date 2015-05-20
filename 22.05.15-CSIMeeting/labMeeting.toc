@@ -3,14 +3,9 @@
 \beamer@subsectionintoc {1}{1}{Goal}{3}{0}{1}
 \beamer@subsubsectionintoc {1}{1}{1}{What is ChIPseq?}{5}{0}{1}
 \beamer@subsubsectionintoc {1}{1}{2}{What is Mixture Model?}{9}{0}{1}
-\beamer@sectionintoc {2}{Our Strategy: Preliminary results}{13}{0}{2}
+\beamer@sectionintoc {2}{Our Strategy: Results}{13}{0}{2}
 \beamer@subsectionintoc {2}{1}{Pipeline}{13}{0}{2}
-\beamer@subsubsectionintoc {2}{1}{1}{Input Data}{14}{0}{2}
-\beamer@subsubsectionintoc {2}{1}{2}{Peak Calls: MACS2 vs jaHMM}{15}{0}{2}
 \beamer@subsectionintoc {2}{2}{Summary: Peak Calls}{21}{0}{2}
-\beamer@subsubsectionintoc {2}{2}{1}{Component Calls}{23}{0}{2}
 \beamer@subsectionintoc {2}{3}{Summary: Component Calls}{31}{0}{2}
-\beamer@subsubsectionintoc {2}{3}{1}{Motif Calls}{34}{0}{2}
 \beamer@subsectionintoc {2}{4}{Summary: Motif Calls}{38}{0}{2}
-\beamer@subsubsectionintoc {2}{4}{1}{Model Update: Biclustering}{40}{0}{2}
-\beamer@sectionintoc {3}{Summary and Future}{43}{0}{3}
+\beamer@sectionintoc {3}{Summary and Future}{46}{0}{3}

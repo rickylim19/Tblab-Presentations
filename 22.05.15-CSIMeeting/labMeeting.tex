@@ -26,6 +26,7 @@
 \usepackage[space]{grffile}
 \usepackage{caption}
 \usepackage{listings}
+\usepackage{textpos}
 \lstset{
     basicstyle=\small\ttfamily,
     columns=flexible,
@@ -78,15 +79,17 @@ rounded corners, minimum height=4em]
 \title{\normalsize Chromatin Conformation Prediction from ChIPseq Signal}
        
 
-\author[Lim]
-{Ricky Lim\inst{1}} 
-\institute[] 
-{
-    \inst{1}
-    Touati Benoukraf-Lab at CSI-NUS
-}
+%\author[Lim]
+%{Ricky Lim\inst{1}} 
+%\institute[] 
+%{
+%    \inst{1}
+%    Touati Benoukraf-Lab at CSI-NUS
+%}
+\author[The author]{\includegraphics[height=1cm,width=1.5cm]{../Images/csi_nus.png}\\Ricky Lim}
+\institute[Inst.]{Cancer Science Institute of Singapore - NUS \\ \small{Touati Benoukraf's Lab}}
 \date[22 May 2015]
-{CSI-Meeting \\\tiny{mailto:rlim.email@gmail.com}}
+{CSI-Meeting \\\tiny{mailto:csilr@nus.edu.sg}}
 
 
 \subject{CSI Meeting}
@@ -130,7 +133,7 @@ rounded corners, minimum height=4em]
     \begin{frame}[plain]
         \begin{tikzpicture}[remember picture,overlay]
             \node[at=(current page.center)] {
-                \includegraphics[width=\paperwidth]{../Images/ChIP.png}
+                \includegraphics[width=0.85\textwidth, height = 0.85\textwidth]{../Images/ChIP.png}
             };
         \end{tikzpicture}
      \end{frame}
@@ -201,7 +204,7 @@ rounded corners, minimum height=4em]
 
 \end{frame}
 
-\section{Our Strategy: Preliminary results}
+\section{Our Strategy: Results}
 
 \subsection{Pipeline}                  
 \begin{frame}[plain]
@@ -241,7 +244,6 @@ rounded corners, minimum height=4em]
     \end{center}
 \end{frame}
 
-\subsubsection{Input Data}
 \begin{frame}[plain,fragile]
     \frametitle{Input: ChIP-seq of Cebp$\epsilon$ from Koeffler-BM}
     \begin{lstlisting}
@@ -267,7 +269,6 @@ rounded corners, minimum height=4em]
 \end{frame}
     
 
-\subsubsection{Peak Calls: MACS2 vs jaHMM}
 \begin{frame}
     \frametitle{Peak Calls: MACS2 vs jaHMM}
     \begin{itemize}
@@ -315,7 +316,6 @@ rounded corners, minimum height=4em]
     \end{itemize}
 \end{frame}
 
-\subsubsection{Component Calls}
 \begin{frame}
     \begin{tikzpicture}[node distance=2cm, auto]
         \node [blocktext] () {Can we model ChIPseq using components of MMs?};
@@ -384,8 +384,8 @@ rounded corners, minimum height=4em]
 \end{frame}
 
 \begin{frame}
-    \frametitle{Model Assessment: BIC-AIC }
-        AIC and BIC is based on Occam's razor principle, i.e, the simplest the better.
+    \frametitle{Model Assessment: BIC-AIC}
+        AIC \footnotemark[1] and BIC \footnotemark[2] is based on Occam's razor principle, i.e, the simplest the better.
         \begin{flalign}
 
         &AIC = $ -2 \times \log L + 2*P  &&
@@ -397,6 +397,9 @@ rounded corners, minimum height=4em]
         &$P$ is the number of parameters &&
 
         \end{flalign}
+
+        \footnotetext[1]{Akaike information criterion}
+        \footnotetext[2]{Bayesian information criterion}
 \end{frame}
 
 \begin{frame}[plain]
@@ -458,7 +461,6 @@ rounded corners, minimum height=4em]
 \end{frame}
 
 
-\subsubsection{Motif Calls}
 \begin{frame}
     \begin{tikzpicture}[node distance=2cm, auto]
         \node [blocktext] () {Motif Calls using Centdist \footnotemark[1]};
@@ -469,21 +471,21 @@ rounded corners, minimum height=4em]
 
 
 \begin{frame}[plain]
-    \frametitle{Group1: low peak score (29559 peaks)}
+    \frametitle{Component 1: low peak score (29559 peaks)}
     \begin{figure}
         \includegraphics[width=1\textwidth, height=0.6\textwidth]{/home/ricky/Rlim/ChromatinConformation/MotifCalls/CebpE/Output/CentDist/Koeffler_BM_CebpE_GMM_ModelAssignment_log_300_group1_compSorted3/top3.png}
     \end{figure}
 \end{frame}
 
 \begin{frame}[plain]
-    \frametitle{Group2: intermediate peak score (28851 peaks)}
+    \frametitle{Component 2: intermediate peak score (28851 peaks)}
     \begin{figure}
         \includegraphics[width=1\textwidth, height=0.6\textwidth]{/home/ricky/Rlim/ChromatinConformation/MotifCalls/CebpE/Output/CentDist/Koeffler_BM_CebpE_GMM_ModelAssignment_log_300_group2_compSorted3/top3.png}
     \end{figure}
 \end{frame}
 
 \begin{frame}[plain]
-    \frametitle{Group3: high peak score (5741 peaks)}
+    \frametitle{Component 3: high peak score (5741 peaks)}
     \begin{figure}
         \includegraphics[width=1\textwidth, height=0.6\textwidth]{/home/ricky/Rlim/ChromatinConformation/MotifCalls/CebpE/Output/CentDist/Koeffler_BM_CebpE_GMM_ModelAssignment_log_300_group3_compSorted3/top3.png}
     \end{figure}
@@ -513,17 +515,43 @@ rounded corners, minimum height=4em]
     \end{itemize}
 \end{frame} 
 
-\subsubsection{Model Update: Biclustering}
-{ % Biclustering
-    \setbeamertemplate{navigation symbols}{}
-    \begin{frame}[plain]
-        \begin{tikzpicture}[remember picture,overlay]
-            \node[at=(current page.center)] {
-                \includegraphics[width=0.8\paperwidth]{../Images/LocalClustering.png}
-            };
-        \end{tikzpicture}
-     \end{frame}
-}
+%{ % Biclustering
+%    \setbeamertemplate{navigation symbols}{}
+%    \begin{frame}[plain]
+%        \frametitle{Peak Annotation}
+%        \begin{tikzpicture}[remember picture,overlay]
+%            \node[at=(current page.center)] {
+%                \includegraphics[width=0.8\paperwidth]{../Images/LocalClustering.png}
+%            };
+%        \end{tikzpicture}
+%     \end{frame}
+%}
+
+\begin{frame}[plain]
+    \frametitle{Peak Annotation}
+    \begin{figure}
+        \includegraphics[width=1\textwidth, height=0.6\textwidth]{../Images/peakConventional.png}
+    \end{figure}
+\end{frame}
+\begin{frame}[plain]
+    \frametitle{Peak Annotation: Clustering}
+    \begin{figure}
+        \includegraphics[width=1\textwidth, height=0.6\textwidth]{../Images/peakClustering.png}
+    \end{figure}
+\end{frame}
+
+\begin{frame}[plain]
+    \begin{figure}
+        \includegraphics[width=1\textwidth, height=1\textwidth]{/home/ricky/Rlim/Presentations/22.05.15-CSIMeeting/Figures/geneAnnotation_page2.pdf}
+    \end{figure}
+\end{frame}
+
+\begin{frame}[plain]
+    \frametitle{Peak Clustering}
+    \begin{figure}
+        \includegraphics[width=1\textwidth, height=0.6\textwidth]{../Images/LocalClustering.png}
+    \end{figure}
+\end{frame}
 
 \begin{frame}[plain]
     \frametitle{Direct: 24948 peaks}
@@ -543,21 +571,13 @@ rounded corners, minimum height=4em]
     \begin{frame}
         \begin{itemize}[<+->]
             \item Our current method could separate direct and indirect bindings 
-            \item Next, can we further using peak clusters increase functional annotation?
+            \item Given Cebp$\epsilon$ ChIPseq, we could predict the chromatin conformation of Cebp-Pea3-HLF
+            \begin{figure}
+                \includegraphics[width=0.3\textwidth, height=0.3\textwidth]{../Images/cebpConformation.png}
+            \end{figure}
+            \item Next, how this chromatin conformation functions?
         \end{itemize}
     \end{frame} 
-
-\begin{frame}[plain]
-    \begin{figure}
-        \includegraphics[width=1\textwidth, height=1\textwidth]{/home/ricky/Rlim/Presentations/22.05.15-CSIMeeting/Figures/geneAnnotation_page1.pdf}
-    \end{figure}
-\end{frame}
-
-\begin{frame}[plain]
-    \begin{figure}
-        \includegraphics[width=1\textwidth, height=1\textwidth]{/home/ricky/Rlim/Presentations/22.05.15-CSIMeeting/Figures/geneAnnotation_page2.pdf}
-    \end{figure}
-\end{frame}
 
 \begin{frame}[plain]
     \frametitle{Acknowledgement}

@@ -30,3 +30,14 @@ Acknowledgment
 
 - Tong Yin (CEDARS SINAI Hospital)
 - Philip Koeffler (CSI)
+
+Future work
+
+- Bioinformatics:
+    - Normalization on GC and mappability
+    - Motif investigation
+    - Test other ChIPseq
+    - Overlap with ChiaPet and 5C
+
+- Biology:
+    - Validation of loci by 3C and ChIP

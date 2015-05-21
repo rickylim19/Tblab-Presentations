@@ -115,6 +115,9 @@ rounded corners, minimum height=4em]
     \begin{itemize}[<+->]
         \item \textbf{Main Question}: 
             Can we use transcription factor (TF)-ChIPseq to predict protein complexes (direct and indirect bindings) on chromatin?
+            \begin{figure}
+                \includegraphics[width=0.7\textwidth, height=0.15\textwidth]{../Images/baileyCentrimo.png}
+            \end{figure}
         \item \textbf{Strategy}: Model ChIPseq signal using Mixture Models to cluster the direct and indirect bindings. 
     \end{itemize}
 
@@ -340,8 +343,8 @@ rounded corners, minimum height=4em]
 \begin{frame}                                                                                                                        
     \frametitle{Check the Gaussian Normality}
     \begin{figure}
-        \includegraphics[width=0.5\textwidth, height=0.5\textwidth]{/home/ricky/Rlim/ChromatinConformation/ComponentCalls/CebpE/ComponentAnalysis/figs/Koeffler_BM_CebpE_log_qqplot.pdf}
         \includegraphics[width=0.5\textwidth, height=0.5\textwidth]{/home/ricky/Rlim/ChromatinConformation/ComponentCalls/CebpE/ComponentAnalysis/figs/Koeffler_BM_CebpE_qqplot.pdf}
+        \includegraphics[width=0.5\textwidth, height=0.5\textwidth]{/home/ricky/Rlim/ChromatinConformation/ComponentCalls/CebpE/ComponentAnalysis/figs/Koeffler_BM_CebpE_log_qqplot.pdf}
     \end{figure}
 \end{frame}
 
@@ -556,14 +559,38 @@ rounded corners, minimum height=4em]
 \begin{frame}[plain]
     \frametitle{Direct: 24948 peaks}
     \begin{figure}
-        \includegraphics[width=1\textwidth, height=0.6\textwidth]{/home/ricky/Rlim/ChromatinConformation/MotifCalls/CebpE/Output/CentDist/Koeffler_BM_CebpE_GMM_BiclusterAssignment_SinglePeakFilteredOut_log_300_compSorted3_dist3kb_direct/top3.png}
+        \includegraphics[width=0.8\textwidth, height=0.6\textwidth]{/home/ricky/Rlim/ChromatinConformation/MotifCalls/CebpE/Output/CentDist/Koeffler_BM_CebpE_GMM_BiclusterAssignment_SinglePeakFilteredOut_log_300_compSorted3_dist3kb_direct/top3.png}
     \end{figure}
 \end{frame}
 
 \begin{frame}[plain]
     \frametitle{Indirect: 26547 peaks}
     \begin{figure}
-        \includegraphics[width=1\textwidth, height=0.6\textwidth]{/home/ricky/Rlim/ChromatinConformation/MotifCalls/CebpE/Output/CentDist/Koeffler_BM_CebpE_GMM_BiclusterAssignment_SinglePeakFilteredOut_log_300_compSorted3_dist3kb_indirect/top3.png}
+        \includegraphics[width=.8\textwidth, height=0.6\textwidth]{/home/ricky/Rlim/ChromatinConformation/MotifCalls/CebpE/Output/CentDist/Koeffler_BM_CebpE_GMM_BiclusterAssignment_SinglePeakFilteredOut_log_300_compSorted3_dist3kb_indirect/top3.png}
+    \end{figure}
+\end{frame}
+
+
+\begin{frame}
+    \begin{tikzpicture}[node distance=2cm, auto]
+        \node [blocktext] () {Motif Discovery using MEME-ChIP \footnotemark[1] and STAMP \footnotemark[2]};
+    \end{tikzpicture}
+        \footnotetext[1]{Machanick, P and Bailey, T. MEME-ChIP: motif analysis of large DNA datasets. Nucleic Acids (2011)}
+        \footnotetext[2]{Mahony, S and Benos, P. STAMP: a web tool for exploring DNA-binding motif similarities. Nucleic Acids (2007)}
+
+\end{frame}
+
+\begin{frame}[plain]
+    \frametitle{Direct: 24948 peaks}
+    \begin{figure}
+        \includegraphics[width=0.8\textwidth, height=0.6\textwidth]{/home/ricky/Rlim/ChromatinConformation/MotifCalls/CebpE/Output/CentDist/Koeffler_BM_CebpE_GMM_BiclusterAssignment_SinglePeakFilteredOut_log_300_compSorted3_dist3kb_direct/top3_denovo.png}
+    \end{figure}
+\end{frame}
+
+\begin{frame}[plain]
+    \frametitle{Indirect: 26547 peaks}
+    \begin{figure}
+        \includegraphics[width=.8\textwidth, height=0.6\textwidth]{/home/ricky/Rlim/ChromatinConformation/MotifCalls/CebpE/Output/CentDist/Koeffler_BM_CebpE_GMM_BiclusterAssignment_SinglePeakFilteredOut_log_300_compSorted3_dist3kb_indirect/top3_denovo.png}
     \end{figure}
 \end{frame}
 
@@ -571,18 +598,18 @@ rounded corners, minimum height=4em]
     \begin{frame}
         \begin{itemize}[<+->]
             \item Our current method could separate direct and indirect bindings 
-            \item Given Cebp$\epsilon$ ChIPseq, we could predict the chromatin conformation of direct bindings of Cebp-Pea3-HLF
+            \item Given Cebp$\epsilon$ ChIPseq, we could predict the chromatin conformation of Cebp
             \begin{figure}
-                \includegraphics[width=0.3\textwidth, height=0.3\textwidth]{../Images/cebpConformation.png}
+                \includegraphics[width=0.4\textwidth, height=0.4\textwidth]{../Images/cebpConformation.png}
             \end{figure}
-            \item Next, how this chromatin conformation functions?
+        \item \textbf{Future:} How this chromatin conformation functions?
         \end{itemize}
     \end{frame} 
 
 \begin{frame}[plain]
     \frametitle{Acknowledgement}
     \begin{itemize}
-        \item Touati Benoukraf (CSI-NUS)
+        \item Touati Benoukraf and team (CSI-NUS)
         \item Samuel Collombet (Ecole Normale Superieur)
         \item Agus Salim (La Trobe University)
         \item Tong Yin (CEDARS SINAI Hospital)

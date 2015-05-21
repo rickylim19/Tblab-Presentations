@@ -569,7 +569,7 @@
                    id="g11758"><path
                      inkscape:connector-curvature="0"
                      id="path3190"
-                     style="fill:#9c0043;fill-opacity:1;fill-rule:nonzero;stroke:none;opacity:0.5"
+                     style="opacity:0.5;fill:#9c0043;fill-opacity:1;fill-rule:nonzero;stroke:none"
                      d="m 695.301,558.53849 127.7742,921.20201 9.77874,143.7 9.88717,155.4 9.77875,165.9 9.88716,174.6 9.77875,181.3 9.77874,185.4 9.88717,186.5 9.77874,184.3 9.88717,178.5 9.77874,169.1 9.88717,155.9 9.77874,139.3 9.88717,119.1 9.77874,96.2 9.78405,70.8 9.88186,43.6 9.78406,15.2 9.88185,-13.6 9.78403,-42 9.884,-69.3 9.7798,-94.8 9.8861,-117.9 9.7798,-138.2 9.7798,-155.1 9.8861,-168.4 9.7798,-178.1 9.8861,-184 9.7798,-186.5 9.8862,-185.5 9.7798,-181.6 9.7798,-175.1 9.8861,-166.4 9.7798,-156.1 9.8861,-144.4 9.7798,-132 9.8861,-119.2 9.7798,-106.4 9.8861,-93.9 9.7798,-82.00201 9.7798,-70.796 9.8861,-60.403 9.7798,-51 9.8861,-42.699 9.7798,-35.398 9.8861,-28.903 9.7798,-23.5 9.8861,-18.898 9.7798,-15 9.7799,-11.801 9.8861,-9.199 9.7798,-7.102 9.8861,-5.398 9.7798,-4.102 9.8861,-3.097 9.7798,-2.301 9.8861,-1.699 9.7798,-1.204 9.7798,-0.898 9.8861,-0.602 9.7798,-0.5 9.8861,-0.296 9.7798,-0.204 9.8861,-0.199 9.7798,-0.097 9.8861,-0.102 19.5596,0 9.8861,-0.102 3449.1881,0 -4245.178,0" /></g><path
                    d="m 495.602,372.801 4392.9,0 0,4522.7 -4392.9,0 0,-4522.7 z"
                    style="fill:none;stroke:#7f7f7f;stroke-width:10.60000038;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-opacity:1;stroke-dasharray:none"
@@ -653,14 +653,6 @@
                    y="0"
                    sodipodi:role="line"
                    id="tspan3232">Signal</tspan></text>
-<text
-                 transform="matrix(0,1,1,0,19.4199,243.416)"
-                 id="text3234"><tspan
-                   style="font-size:12px;font-variant:normal;font-weight:normal;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Helvetica;-inkscape-font-specification:Helvetica"
-                   x="0 8.6639996 15.336 22.007999 28.007999 30.672001 34.007999"
-                   y="0"
-                   sodipodi:role="line"
-                   id="tspan3236">Density</tspan></text>
 </g></g></g></g><g
          id="g9091"
          transform="translate(7.9813212,25.372297)"><g
@@ -826,20 +818,26 @@
                    style="font-size:10px;font-variant:normal;font-weight:normal;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Helvetica;-inkscape-font-specification:Helvetica">0100200300400</tspan></text>
 <text
                  id="text9181"
-                 transform="matrix(1,0,0,-1,252.537,10.8)"><tspan
+                 transform="scale(1.0054606,-0.99456906)"
+                 x="184.14732"
+                 y="48.894218"
+                 style="font-size:49.61368179px"><tspan
                    id="tspan9183"
                    sodipodi:role="line"
-                   y="0"
-                   x="0 8.0039997 10.668 17.34 24.011999 30.684"
-                   style="font-size:12px;font-variant:normal;font-weight:normal;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Helvetica;-inkscape-font-specification:Helvetica">Signal</tspan></text>
+                   y="48.894218"
+                   x="184.14732 217.23964 228.25389 255.8391 283.42429 311.00949"
+                   style="font-size:49.61368179px;font-variant:normal;font-weight:normal;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Helvetica;-inkscape-font-specification:Helvetica">Signal</tspan></text>
 <text
                  id="text9185"
-                 transform="matrix(0,1,1,0,19.4199,243.416)"><tspan
+                 transform="matrix(0,0.99257393,1.0074816,0,0,0)"
+                 x="242.98135"
+                 y="13.71125"
+                 style="font-size:37.43582535px"><tspan
                    id="tspan9187"
                    sodipodi:role="line"
-                   y="0"
-                   x="0 8.6639996 15.336 22.007999 28.007999 30.672001 34.007999"
-                   style="font-size:12px;font-variant:normal;font-weight:normal;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Helvetica;-inkscape-font-specification:Helvetica">Density</tspan></text>
+                   y="13.71125"
+                   x="242.98135 270.01001 290.82434 311.63864 330.35657 338.66733 349.07446"
+                   style="font-size:37.43582535px;font-variant:normal;font-weight:normal;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Helvetica;-inkscape-font-specification:Helvetica">Density</tspan></text>
 </g></g></g></g><g
          id="g9253"
          transform="translate(288.94108,24.741705)"><g
@@ -1003,22 +1001,6 @@
                    y="0"
                    x="0 86.880501 92.440498 98.000504 179.33051 184.8905 190.4505 271.77029 277.33029 282.89029 364.21051 369.77051 375.33051"
                    style="font-size:10px;font-variant:normal;font-weight:normal;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Helvetica;-inkscape-font-specification:Helvetica">0100200300400</tspan></text>
-<text
-                 id="text9343"
-                 transform="matrix(1,0,0,-1,252.537,10.8)"><tspan
-                   id="tspan9345"
-                   sodipodi:role="line"
-                   y="0"
-                   x="0 8.0039997 10.668 17.34 24.011999 30.684"
-                   style="font-size:12px;font-variant:normal;font-weight:normal;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Helvetica;-inkscape-font-specification:Helvetica">Signal</tspan></text>
-<text
-                 id="text9347"
-                 transform="matrix(0,1,1,0,19.4199,243.416)"><tspan
-                   id="tspan9349"
-                   sodipodi:role="line"
-                   y="0"
-                   x="0 8.6639996 15.336 22.007999 28.007999 30.672001 34.007999"
-                   style="font-size:12px;font-variant:normal;font-weight:normal;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Helvetica;-inkscape-font-specification:Helvetica">Density</tspan></text>
 </g></g></g></g><g
          transform="matrix(0.77751845,0,0,0.87561277,-365.8437,29.711448)"
          id="g5463"><g
@@ -2140,7 +2122,51 @@
                  inkscape:connector-curvature="0"
                  d="M 0,0 C -0.838,3.624 -6.007,6.206 -11.487,5.738 L -47.94,2.624 C -53.42,2.156 -60.8,5.217 -64.339,9.427 l -38.903,46.276 c -3.539,4.21 -7.059,5.262 -7.822,2.338 -0.763,-2.923 1.509,-8.76 5.048,-12.97 l 41.022,-48.795 c 3.539,-4.21 7.346,-12.061 8.46,-17.447 l 16.413,-79.387 c 1.114,-5.386 3.641,-9.789 5.615,-9.785 1.974,0.005 2.678,4.415 1.564,9.801 l -16.466,79.638 c -1.113,5.386 2.459,10.176 7.939,10.644 l 33.028,2.821 C -2.961,-6.972 0.837,-3.624 0,0"
                  style="fill:#3cb879;fill-opacity:1;fill-rule:nonzero;stroke:none"
-                 id="path5249" /></g></g></g></g></g><path
+                 id="path5249" /></g></g></g></g><text
+         id="text9181-8"
+         transform="scale(1.1024941,-0.90703434)"
+         x="344.77521"
+         y="-11.860489"
+         style="font-size:21.54001999px"><tspan
+           id="tspan9183-5"
+           sodipodi:role="line"
+           y="-11.860489"
+           x="344.77521 359.1424 363.92429 375.90051 387.87677 399.85303"
+           style="font-size:21.54001999px;font-variant:normal;font-weight:normal;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Helvetica;-inkscape-font-specification:Helvetica">Signal</tspan></text>
+<text
+         id="text9181-9"
+         transform="scale(1.1024941,-0.90703434)"
+         x="603.61914"
+         y="-9.8940887"
+         style="font-size:21.54001999px"><tspan
+           id="tspan9183-4"
+           sodipodi:role="line"
+           y="-9.8940887"
+           x="603.61914 617.98633 622.76819 634.74445 646.7207 658.69696"
+           style="font-size:21.54001999px;font-variant:normal;font-weight:normal;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Helvetica;-inkscape-font-specification:Helvetica">Signal</tspan></text>
+<text
+         id="text9185-0"
+         transform="matrix(0,0.90521486,1.1047101,0,0,0)"
+         x="141.67168"
+         y="272.10712"
+         style="font-size:16.25294495px"><tspan
+           id="tspan9187-0"
+           sodipodi:role="line"
+           y="272.10712"
+           x="141.67168 153.4063 162.44292 171.47955 179.60602 183.21417 187.73248"
+           style="font-size:16.25294495px;font-variant:normal;font-weight:normal;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Helvetica;-inkscape-font-specification:Helvetica">Density</tspan></text>
+<text
+         id="text9185-9"
+         transform="matrix(0,0.90521486,1.1047101,0,0,0)"
+         x="134.77548"
+         y="528.01007"
+         style="font-size:16.25294495px"><tspan
+           id="tspan9187-5"
+           sodipodi:role="line"
+           y="528.01007"
+           x="134.77548 146.5101 155.54672 164.58334 172.70981 176.31796 180.83627"
+           style="font-size:16.25294495px;font-variant:normal;font-weight:normal;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Helvetica;-inkscape-font-specification:Helvetica">Density</tspan></text>
+</g><path
        style="fill:none;stroke:#000000;stroke-width:0.8;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:2.4,0.8;stroke-dashoffset:0;marker-start:none"
        d="M 278.0916,561.22796 C 276.19983,5.0447648 276.19983,5.0447648 276.19983,5.0447648 l 0,0"
        id="path12629"

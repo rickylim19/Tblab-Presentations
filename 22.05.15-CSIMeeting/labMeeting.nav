@@ -25,7 +25,7 @@
 \headcommand {\beamer@framepages {10}{11}}
 \headcommand {\slideentry {1}{1}{8}{12/12}{Goal}{0}}
 \headcommand {\beamer@framepages {12}{12}}
-\headcommand {\sectionentry {2}{Our Strategy: Results}{13}{Our Strategy: Results}{0}}
+\headcommand {\sectionentry {2}{Our Strategy \& Results}{13}{Our Strategy \& Results}{0}}
 \headcommand {\beamer@sectionpages {3}{12}}
 \headcommand {\beamer@subsectionpages {3}{12}}
 \headcommand {\beamer@subsectionentry {0}{2}{1}{13}{Pipeline}}\headcommand {\beamer@subsectionpages {13}{12}}
@@ -97,12 +97,14 @@
 \headcommand {\sectionentry {3}{Summary and Future}{49}{Summary and Future}{0}}
 \headcommand {\beamer@sectionpages {13}{48}}
 \headcommand {\beamer@subsectionpages {38}{48}}
-\headcommand {\slideentry {3}{0}{11}{49/51}{}{0}}
-\headcommand {\beamer@framepages {49}{51}}
-\headcommand {\slideentry {3}{0}{12}{52/52}{}{0}}
-\headcommand {\beamer@framepages {52}{52}}
-\headcommand {\beamer@partpages {1}{52}}
-\headcommand {\beamer@subsectionpages {49}{52}}
-\headcommand {\beamer@sectionpages {49}{52}}
-\headcommand {\beamer@documentpages {52}}
-\headcommand {\def \inserttotalframenumber {43}}
+\headcommand {\slideentry {3}{0}{11}{49/50}{}{0}}
+\headcommand {\beamer@framepages {49}{50}}
+\headcommand {\slideentry {3}{0}{12}{51/57}{}{0}}
+\headcommand {\beamer@framepages {51}{57}}
+\headcommand {\slideentry {3}{0}{13}{58/58}{}{0}}
+\headcommand {\beamer@framepages {58}{58}}
+\headcommand {\beamer@partpages {1}{58}}
+\headcommand {\beamer@subsectionpages {49}{58}}
+\headcommand {\beamer@sectionpages {49}{58}}
+\headcommand {\beamer@documentpages {58}}
+\headcommand {\def \inserttotalframenumber {44}}

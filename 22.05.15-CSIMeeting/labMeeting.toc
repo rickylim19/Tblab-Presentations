@@ -3,7 +3,7 @@
 \beamer@subsectionintoc {1}{1}{Goal}{3}{0}{1}
 \beamer@subsubsectionintoc {1}{1}{1}{What is ChIPseq?}{5}{0}{1}
 \beamer@subsubsectionintoc {1}{1}{2}{What is Mixture Model?}{9}{0}{1}
-\beamer@sectionintoc {2}{Our Strategy: Results}{13}{0}{2}
+\beamer@sectionintoc {2}{Our Strategy \& Results}{13}{0}{2}
 \beamer@subsectionintoc {2}{1}{Pipeline}{13}{0}{2}
 \beamer@subsectionintoc {2}{2}{Summary: Peak Calls}{21}{0}{2}
 \beamer@subsectionintoc {2}{3}{Summary: Component Calls}{31}{0}{2}

@@ -677,9 +677,12 @@ INPUT ../Images/cebpConformation.png
 INPUT ../Images/cebpConformation.png
 INPUT ../Images/cebpConformation.png
 INPUT ../Images/cebpConformation.png
-INPUT ../Images/cebpConformation.png
-INPUT ../Images/cebpConformation.png
-INPUT ../Images/cebpConformation.png
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/libertine/LinBiolinumT-tlf-ts1.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/libertine/LinBiolinumTB-tlf-t1.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/vf/public/libertine/LinBiolinumT-tlf-ts1.vf
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/libertine/LinBiolinumT-tlf-ts1--base.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/vf/public/libertine/LinBiolinumTB-tlf-t1.vf
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/libertine/LinBiolinumTB-tlf-t1--base.tfm
 OUTPUT labMeeting.nav
 OUTPUT labMeeting.toc
 OUTPUT labMeeting.snm

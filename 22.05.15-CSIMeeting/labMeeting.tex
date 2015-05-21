@@ -136,7 +136,7 @@ rounded corners, minimum height=4em]
     \begin{frame}[plain]
         \begin{tikzpicture}[remember picture,overlay]
             \node[at=(current page.center)] {
-                \includegraphics[width=0.85\textwidth, height = 0.85\textwidth]{../Images/ChIP.png}
+                \includegraphics[width=0.9\textwidth, height = 0.8\textwidth]{../Images/ChIP.png}
             };
         \end{tikzpicture}
      \end{frame}
@@ -147,7 +147,7 @@ rounded corners, minimum height=4em]
     \begin{frame}[plain]
         \begin{tikzpicture}[remember picture,overlay]
             \node[at=(current page.center)] {
-                \includegraphics[width=\paperwidth]{../Images/ChromatinConfig.png}
+                \includegraphics[width=0.9\textwidth, height=0.8\textwidth]{../Images/ChromatinConfig.png}
             };
         \end{tikzpicture}
 
@@ -159,7 +159,7 @@ rounded corners, minimum height=4em]
     \begin{frame}[plain]
         \begin{tikzpicture}[remember picture,overlay]
             \node[at=(current page.center)] {
-                \includegraphics[width=\paperwidth]{../Images/HypotheticalConformation.png}
+                \includegraphics[width=0.9\textwidth, height=0.8\textwidth]{../Images/HypotheticalConformation.png}
             };
         \end{tikzpicture}
      \end{frame}
@@ -207,7 +207,7 @@ rounded corners, minimum height=4em]
 
 \end{frame}
 
-\section{Our Strategy: Results}
+\section{Our Strategy \& Results}
 
 \subsection{Pipeline}                  
 \begin{frame}[plain]
@@ -596,13 +596,30 @@ rounded corners, minimum height=4em]
 
 \section{Summary and Future}
     \begin{frame}
+        \frametitle{Summary: \small{Chromatin Conformation Prediction from ChIPseq Signal}}
         \begin{itemize}[<+->]
             \item Our current method could separate direct and indirect bindings 
             \item Given Cebp$\epsilon$ ChIPseq, we could predict the chromatin conformation of Cebp
             \begin{figure}
-                \includegraphics[width=0.4\textwidth, height=0.4\textwidth]{../Images/cebpConformation.png}
+                \includegraphics[width=0.3\textwidth, height=0.3\textwidth]{../Images/cebpConformation.png}
             \end{figure}
-        \item \textbf{Future:} How this chromatin conformation functions?
+        \end{itemize}
+    \end{frame} 
+
+    \begin{frame}
+        \frametitle{Future Directions}
+        \begin{itemize}[<+->]
+            \item Dry-lab work
+                \begin{itemize}
+                    \item ChIPseq signals normalization mainly on GC and mappability
+                    \item Motif validation with other methods
+                    \item Method tested using other \textbf{high-quality} ChIPseq
+                    \item Peak clusters validated with other methods, such as ChIA-PET, and 5c
+                \end{itemize}
+            \item Wet-lab work
+                \begin{itemize}
+                    \item Peak clusters validation by 3C and ChIP
+                \end{itemize}
         \end{itemize}
     \end{frame} 
 

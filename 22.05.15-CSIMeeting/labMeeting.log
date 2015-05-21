@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.8.13)  21 MAY 2015 16:56
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.8.13)  21 MAY 2015 18:04
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1495,26 +1495,26 @@ File: ../Images/ChIP.png Graphic file (type png)
 
 <use ../Images/ChIP.png>
 Package pdftex.def Info: ../Images/ChIP.png used on input line 142.
-(pdftex.def)             Requested size: 261.20067pt x 261.19615pt.
+(pdftex.def)             Requested size: 276.55756pt x 245.83267pt.
  [6
 
  <../Images/ChIP.png>]
-<../Images/ChromatinConfig.png, id=222, 810.3876pt x 577.6782pt>
+<../Images/ChromatinConfig.png, id=222, 845.0772pt x 597.432pt>
 File: ../Images/ChromatinConfig.png Graphic file (type png)
 
 <use ../Images/ChromatinConfig.png>
 Package pdftex.def Info: ../Images/ChromatinConfig.png used on input line 154.
-(pdftex.def)             Requested size: 364.19536pt x 259.60901pt.
+(pdftex.def)             Requested size: 276.55527pt x 245.83296pt.
  [7
 
  <../Images/ChromatinConfig.png>]
-<../Images/HypotheticalConformation.png, id=229, 813.7602pt x 567.17496pt>
+<../Images/HypotheticalConformation.png, id=229, 844.98083pt x 597.52837pt>
 File: ../Images/HypotheticalConformation.png Graphic file (type png)
 
 <use ../Images/HypotheticalConformation.png>
 Package pdftex.def Info: ../Images/HypotheticalConformation.png used on input l
 ine 165.
-(pdftex.def)             Requested size: 364.19536pt x 253.83301pt.
+(pdftex.def)             Requested size: 276.54951pt x 245.83614pt.
  [8
 
  <../Images/HypotheticalConformation.png>]
@@ -2623,7 +2623,7 @@ File: ../Images/cebpConformation.png Graphic file (type png)
 <use ../Images/cebpConformation.png>
 Package pdftex.def Info: ../Images/cebpConformation.png used on input line 607.
 
-(pdftex.def)             Requested size: 122.90872pt x 122.9125pt.
+(pdftex.def)             Requested size: 92.18645pt x 92.18254pt.
  [49
 
  <../Images/cebpConformation.png>]
@@ -2632,19 +2632,34 @@ File: ../Images/cebpConformation.png Graphic file (type png)
 <use ../Images/cebpConformation.png>
 Package pdftex.def Info: ../Images/cebpConformation.png used on input line 607.
 
-(pdftex.def)             Requested size: 122.90872pt x 122.9125pt.
+(pdftex.def)             Requested size: 92.18645pt x 92.18254pt.
  [50
 
 ]
-File: ../Images/cebpConformation.png Graphic file (type png)
- <use ../Images/cebpConformation.png>
-Package pdftex.def Info: ../Images/cebpConformation.png used on input line 607.
-
-(pdftex.def)             Requested size: 122.90872pt x 122.9125pt.
-
-[51
+LaTeX Font Info:    Font shape `TS1/LinuxBiolinumT-TLF/m/n' will be
+(Font)              scaled to size 9.0pt on input line 624.
+LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/bx/n' in size <10> not av
+ailable
+(Font)              Font shape `T1/LinuxBiolinumT-TLF/b/n' tried instead on inp
+ut line 624.
+LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/b/n' will be
+(Font)              scaled to size 10.0pt on input line 624.
+ [51
 
 ] [52
+
+] [53
+
+] [54
+
+] [55
+
+] [56
+
+]
+[57
+
+] [58
 
 ]
 \tf@nav=\write6
@@ -2656,21 +2671,21 @@ Package pdftex.def Info: ../Images/cebpConformation.png used on input line 607.
 \tf@snm=\write8
 \openout8 = `labMeeting.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 621.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 621.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 638.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 638.
  (./labMeeting.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 621.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 621.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 638.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 638.
 Package rerunfilecheck Info: File `labMeeting.out' has not changed.
-(rerunfilecheck)             Checksum: 2DD06AFCDF2A994A39FCD10B755D408A;480.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 621.
+(rerunfilecheck)             Checksum: 801F88A175DC562F65B40B9626355035;484.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 638.
  ) 
 Here is how much of TeX's memory you used:
- 25850 strings out of 495028
- 516051 string characters out of 6181497
- 655557 words of memory out of 5000000
- 28337 multiletter control sequences out of 15000+600000
- 133883 words of font info for 95 fonts, out of 8000000 for 9000
+ 25896 strings out of 495028
+ 517159 string characters out of 6181497
+ 656557 words of memory out of 5000000
+ 28369 multiletter control sequences out of 15000+600000
+ 139829 words of font info for 99 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  53i,19n,92p,399b,1082s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/libertine/lbtn_25tcsq.enc}{/us
@@ -2686,10 +2701,10 @@ dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/f
 onts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/t
 ype1/public/amsfonts/cm/cmss10.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
 ublic/amsfonts/cm/cmsy10.pfb>
-Output written on labMeeting.pdf (52 pages, 5249686 bytes).
+Output written on labMeeting.pdf (58 pages, 5334890 bytes).
 PDF statistics:
- 1781 PDF objects out of 2073 (max. 8388607)
- 1596 compressed objects within 16 object streams
- 89 named destinations out of 1000 (max. 500000)
+ 1954 PDF objects out of 2073 (max. 8388607)
+ 1761 compressed objects within 18 object streams
+ 101 named destinations out of 1000 (max. 500000)
  342 words of extra memory for PDF output out of 10000 (max. 10000000)
 
